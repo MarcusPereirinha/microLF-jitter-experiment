@@ -1,0 +1,776 @@
+[32m(1027196497) [INFO] [NET] TcpIpChannel: [server] Bind to 127.0.0.1:15042[0m
+[32m(1059376195) [INFO] [NET] TcpIpChannel: [server] Connceted to client with address 127.0.0.1[0m
+[32m(1310090773) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1324365771) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1346904469) [INFO] [FED] Handle: Handshake Response Tag System Event[0m
+[32m(1397416165) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(1419597663) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(1419599963) [INFO] [FED] Start time negotiation completed Starting at 1511170064[0m
+[32m(1419600663) [INFO] [FED] Self: 0x6319914d6120 Scheduler: 0x6319914d4040[0m
+[32m(1527450053) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1527452653) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1527476353) [INFO] [FED] First schedule_at returned 0 for desired tag: (1511170064,0)[0m
+[32m(1527575353) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1511170064,0)[0m
+[32m(1527576653) [INFO] [FED]   payload first int = 0[0m
+START,role=receiver,maxwait_ms=20
+EVENT,NORMAL,seq=0,mono_ns=417076827451,physical_ns=1527578653,logical_ns=1511170064,microstep=0,intended_ns=1511170064,intended_microstep=0
+[32m(1560423651) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1561453551) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1561454851) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1561473251) [INFO] [FED] First schedule_at returned 0 for desired tag: (1561170064,0)[0m
+[32m(1561530850) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1561170064,0)[0m
+[32m(1561532050) [INFO] [FED]   payload first int = 1[0m
+EVENT,NORMAL,seq=1,mono_ns=417110781948,physical_ns=1561533050,logical_ns=1561170064,microstep=0,intended_ns=1561170064,intended_microstep=0
+[32m(1624184845) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1624187545) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1624212145) [INFO] [FED] First schedule_at returned 0 for desired tag: (1611170064,0)[0m
+[32m(1624289145) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1611170064,0)[0m
+[32m(1624290445) [INFO] [FED]   payload first int = 2[0m
+EVENT,NORMAL,seq=2,mono_ns=417173540543,physical_ns=1624291645,logical_ns=1611170064,microstep=0,intended_ns=1611170064,intended_microstep=0
+[32m(1673376843) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1673379343) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1673403843) [INFO] [FED] First schedule_at returned 0 for desired tag: (1661170064,0)[0m
+[32m(1673479343) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1661170064,0)[0m
+[32m(1673480543) [INFO] [FED]   payload first int = 3[0m
+EVENT,NORMAL,seq=3,mono_ns=417222730341,physical_ns=1673481543,logical_ns=1661170064,microstep=0,intended_ns=1661170064,intended_microstep=0
+[32m(1711727141) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1711728741) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1711749841) [INFO] [FED] First schedule_at returned 0 for desired tag: (1711170064,0)[0m
+[32m(1711818441) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1711170064,0)[0m
+[32m(1711819641) [INFO] [FED]   payload first int = 4[0m
+EVENT,NORMAL,seq=4,mono_ns=417261069439,physical_ns=1711820541,logical_ns=1711170064,microstep=0,intended_ns=1711170064,intended_microstep=0
+[32m(1764818940) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1764821940) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1764847640) [INFO] [FED] First schedule_at returned 0 for desired tag: (1761170064,0)[0m
+[32m(1766153140) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1761170064,0)[0m
+[32m(1766549540) [INFO] [FED]   payload first int = 5[0m
+EVENT,NORMAL,seq=5,mono_ns=417316146838,physical_ns=1766898140,logical_ns=1761170064,microstep=0,intended_ns=1761170064,intended_microstep=0
+[32m(1823389738) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1823884438) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1824340438) [INFO] [FED] First schedule_at returned 0 for desired tag: (1811170064,0)[0m
+[32m(1824752438) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1811170064,0)[0m
+[32m(1825175538) [INFO] [FED]   payload first int = 6[0m
+EVENT,NORMAL,seq=6,mono_ns=417374806136,physical_ns=1825557338,logical_ns=1811170064,microstep=0,intended_ns=1811170064,intended_microstep=0
+[32m(1890409436) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1890604736) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(1890725736) [WARN] [SCHED] Trying to schedule event into the past at tag: (1861170064,0)[0m
+[33m(1890832436) [WARN] [SCHED] Current tag: (1861170064,0)[0m
+[32m(1890937436) [INFO] [FED] First schedule_at returned 5 for desired tag: (1861170064,0)[0m
+[33m(1891039936) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(1891181736) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (1861170064,1)[0m
+[32m(1891382836) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1861170064,1)[0m
+[32m(1891547636) [INFO] [FED]   payload first int = 7[0m
+[33m(1891734136) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=7,mono_ns=417441112234,physical_ns=1891863736,logical_ns=1861170064,microstep=1,intended_ns=1861170064,intended_microstep=0
+[32m(1916635635) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1916889535) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1917100735) [INFO] [FED] First schedule_at returned 0 for desired tag: (1911170064,0)[0m
+[32m(1917309035) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1911170064,0)[0m
+[32m(1917542335) [INFO] [FED]   payload first int = 8[0m
+EVENT,NORMAL,seq=8,mono_ns=417466965333,physical_ns=1917716535,logical_ns=1911170064,microstep=0,intended_ns=1911170064,intended_microstep=0
+[32m(1971121733) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(1971504533) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(1971987033) [INFO] [FED] First schedule_at returned 0 for desired tag: (1961170064,0)[0m
+[32m(1972221033) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (1961170064,0)[0m
+[32m(1972561133) [INFO] [FED]   payload first int = 9[0m
+EVENT,NORMAL,seq=9,mono_ns=417522142431,physical_ns=1972893733,logical_ns=1961170064,microstep=0,intended_ns=1961170064,intended_microstep=0
+[32m(2019724532) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2020079632) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2020364532) [INFO] [FED] First schedule_at returned 0 for desired tag: (2011170064,0)[0m
+[32m(2020610232) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2011170064,0)[0m
+[32m(2020893332) [INFO] [FED]   payload first int = 10[0m
+EVENT,NORMAL,seq=10,mono_ns=417570528430,physical_ns=2021279632,logical_ns=2011170064,microstep=0,intended_ns=2011170064,intended_microstep=0
+[32m(2079946830) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2080249330) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2080517930) [INFO] [FED] First schedule_at returned 0 for desired tag: (2061170064,0)[0m
+[32m(2080779130) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2061170064,0)[0m
+[32m(2081094730) [INFO] [FED]   payload first int = 11[0m
+EVENT,NORMAL,seq=11,mono_ns=417630637028,physical_ns=2081388230,logical_ns=2061170064,microstep=0,intended_ns=2061170064,intended_microstep=0
+[32m(2127495529) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2127970829) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2128475028) [INFO] [FED] First schedule_at returned 0 for desired tag: (2111170064,0)[0m
+[32m(2128963328) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2111170064,0)[0m
+[32m(2129342428) [INFO] [FED]   payload first int = 12[0m
+EVENT,NORMAL,seq=12,mono_ns=417678982926,physical_ns=2129734128,logical_ns=2111170064,microstep=0,intended_ns=2111170064,intended_microstep=0
+[32m(2168884927) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2169418027) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2169842727) [INFO] [FED] First schedule_at returned 0 for desired tag: (2161170064,0)[0m
+[32m(2170229927) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2161170064,0)[0m
+[32m(2170548327) [INFO] [FED]   payload first int = 13[0m
+EVENT,NORMAL,seq=13,mono_ns=417720054825,physical_ns=2170806127,logical_ns=2161170064,microstep=0,intended_ns=2161170064,intended_microstep=0
+[32m(2214372426) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2214834626) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2215343926) [INFO] [FED] First schedule_at returned 0 for desired tag: (2211170064,0)[0m
+[32m(2215778626) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2211170064,0)[0m
+[32m(2216102626) [INFO] [FED]   payload first int = 14[0m
+EVENT,NORMAL,seq=14,mono_ns=417765692724,physical_ns=2216459126,logical_ns=2211170064,microstep=0,intended_ns=2211170064,intended_microstep=0
+[32m(2263061224) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2263381524) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2263737224) [INFO] [FED] First schedule_at returned 0 for desired tag: (2261170064,0)[0m
+[32m(2264167724) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2261170064,0)[0m
+[32m(2264623724) [INFO] [FED]   payload first int = 15[0m
+EVENT,NORMAL,seq=15,mono_ns=417814223322,physical_ns=2264974524,logical_ns=2261170064,microstep=0,intended_ns=2261170064,intended_microstep=0
+[32m(2331958722) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2332432222) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2332842422) [WARN] [SCHED] Trying to schedule event into the past at tag: (2311170064,0)[0m
+[33m(2333268222) [WARN] [SCHED] Current tag: (2311170064,0)[0m
+[32m(2333666822) [INFO] [FED] First schedule_at returned 5 for desired tag: (2311170064,0)[0m
+[33m(2333964322) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2334333722) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2311170064,1)[0m
+[32m(2334690722) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2311170064,1)[0m
+[32m(2334945922) [INFO] [FED]   payload first int = 16[0m
+[33m(2335233322) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=16,mono_ns=417884741820,physical_ns=2335493122,logical_ns=2311170064,microstep=1,intended_ns=2311170064,intended_microstep=0
+[32m(2374389021) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2374854921) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2375349421) [INFO] [FED] First schedule_at returned 0 for desired tag: (2361170064,0)[0m
+[32m(2375738421) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2361170064,0)[0m
+[32m(2376128821) [INFO] [FED]   payload first int = 17[0m
+EVENT,NORMAL,seq=17,mono_ns=417925651919,physical_ns=2376403121,logical_ns=2361170064,microstep=0,intended_ns=2361170064,intended_microstep=0
+[32m(2418840719) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2419333619) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2419760419) [INFO] [FED] First schedule_at returned 0 for desired tag: (2411170064,0)[0m
+[32m(2420191719) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2411170064,0)[0m
+[32m(2420607519) [INFO] [FED]   payload first int = 18[0m
+EVENT,NORMAL,seq=18,mono_ns=417970228817,physical_ns=2420980119,logical_ns=2411170064,microstep=0,intended_ns=2411170064,intended_microstep=0
+[32m(2465393518) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2465869418) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2466302018) [INFO] [FED] First schedule_at returned 0 for desired tag: (2461170064,0)[0m
+[32m(2466829818) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2461170064,0)[0m
+[32m(2467272018) [INFO] [FED]   payload first int = 19[0m
+EVENT,NORMAL,seq=19,mono_ns=418016921416,physical_ns=2467672618,logical_ns=2461170064,microstep=0,intended_ns=2461170064,intended_microstep=0
+[32m(2517597016) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2518075416) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2518545216) [INFO] [FED] First schedule_at returned 0 for desired tag: (2511170064,0)[0m
+[32m(2519028916) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2511170064,0)[0m
+[32m(2519457616) [INFO] [FED]   payload first int = 20[0m
+EVENT,NORMAL,seq=20,mono_ns=418069025114,physical_ns=2519776316,logical_ns=2511170064,microstep=0,intended_ns=2511170064,intended_microstep=0
+[32m(2562996715) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2563345915) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2563675515) [INFO] [FED] First schedule_at returned 0 for desired tag: (2561170064,0)[0m
+[32m(2564098815) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2561170064,0)[0m
+[32m(2564596815) [INFO] [FED]   payload first int = 21[0m
+EVENT,NORMAL,seq=21,mono_ns=418114230613,physical_ns=2564981915,logical_ns=2561170064,microstep=0,intended_ns=2561170064,intended_microstep=0
+[32m(2616275413) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2616771213) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2617194513) [INFO] [FED] First schedule_at returned 0 for desired tag: (2611170064,0)[0m
+[32m(2617596813) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2611170064,0)[0m
+[32m(2617953513) [INFO] [FED]   payload first int = 22[0m
+EVENT,NORMAL,seq=22,mono_ns=418167575911,physical_ns=2618327213,logical_ns=2611170064,microstep=0,intended_ns=2611170064,intended_microstep=0
+[32m(2664598812) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2665069212) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2665482412) [INFO] [FED] First schedule_at returned 0 for desired tag: (2661170064,0)[0m
+[32m(2665902512) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2661170064,0)[0m
+[32m(2666326412) [INFO] [FED]   payload first int = 23[0m
+EVENT,NORMAL,seq=23,mono_ns=418215918010,physical_ns=2666669212,logical_ns=2661170064,microstep=0,intended_ns=2661170064,intended_microstep=0
+[32m(2723124210) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2723690310) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2724160810) [INFO] [FED] First schedule_at returned 0 for desired tag: (2711170064,0)[0m
+[32m(2724507410) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2711170064,0)[0m
+[32m(2724853110) [INFO] [FED]   payload first int = 24[0m
+EVENT,NORMAL,seq=24,mono_ns=418274425208,physical_ns=2725176410,logical_ns=2711170064,microstep=0,intended_ns=2711170064,intended_microstep=0
+[32m(2776675308) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2777129908) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2777521208) [INFO] [FED] First schedule_at returned 0 for desired tag: (2761170064,0)[0m
+[32m(2777967408) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2761170064,0)[0m
+[32m(2778330308) [INFO] [FED]   payload first int = 25[0m
+EVENT,NORMAL,seq=25,mono_ns=418327869106,physical_ns=2778620308,logical_ns=2761170064,microstep=0,intended_ns=2761170064,intended_microstep=0
+[32m(2838567306) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2839056306) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2839455506) [WARN] [SCHED] Trying to schedule event into the past at tag: (2811170064,0)[0m
+[33m(2839878806) [WARN] [SCHED] Current tag: (2811170064,0)[0m
+[32m(2840174506) [INFO] [FED] First schedule_at returned 5 for desired tag: (2811170064,0)[0m
+[33m(2840505006) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2840914206) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2811170064,1)[0m
+[32m(2841355606) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2811170064,1)[0m
+[32m(2841714706) [INFO] [FED]   payload first int = 26[0m
+[33m(2841977506) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=26,mono_ns=418391475004,physical_ns=2842226306,logical_ns=2811170064,microstep=1,intended_ns=2811170064,intended_microstep=0
+[32m(2863069906) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2863471806) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2864001406) [INFO] [FED] First schedule_at returned 0 for desired tag: (2861170064,0)[0m
+[32m(2864479106) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2861170064,0)[0m
+[32m(2864765106) [INFO] [FED]   payload first int = 27[0m
+EVENT,NORMAL,seq=27,mono_ns=418414400604,physical_ns=2865151906,logical_ns=2861170064,microstep=0,intended_ns=2861170064,intended_microstep=0
+[32m(2927809704) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2928370004) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2928822104) [INFO] [FED] First schedule_at returned 0 for desired tag: (2911170064,0)[0m
+[32m(2929362304) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2911170064,0)[0m
+[32m(2929781604) [INFO] [FED]   payload first int = 28[0m
+EVENT,NORMAL,seq=28,mono_ns=418479385602,physical_ns=2930136804,logical_ns=2911170064,microstep=0,intended_ns=2911170064,intended_microstep=0
+[32m(2962312103) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(2962604503) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(2963026803) [INFO] [FED] First schedule_at returned 0 for desired tag: (2961170064,0)[0m
+[32m(2963482502) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (2961170064,0)[0m
+[32m(2963793102) [INFO] [FED]   payload first int = 29[0m
+EVENT,NORMAL,seq=29,mono_ns=418513282700,physical_ns=2964033902,logical_ns=2961170064,microstep=0,intended_ns=2961170064,intended_microstep=0
+[32m(3023787301) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3024340901) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3024963401) [INFO] [FED] First schedule_at returned 0 for desired tag: (3011170064,0)[0m
+[32m(3025495001) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3011170064,0)[0m
+[32m(3025966201) [INFO] [FED]   payload first int = 30[0m
+EVENT,NORMAL,seq=30,mono_ns=418575619799,physical_ns=3026371101,logical_ns=3011170064,microstep=0,intended_ns=3011170064,intended_microstep=0
+[32m(3084160299) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3084755799) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3085219999) [WARN] [SCHED] Trying to schedule event into the past at tag: (3061170064,0)[0m
+[33m(3085614499) [WARN] [SCHED] Current tag: (3061170064,0)[0m
+[32m(3086044399) [INFO] [FED] First schedule_at returned 5 for desired tag: (3061170064,0)[0m
+[33m(3086500599) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3086986399) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3061170064,1)[0m
+[32m(3087412199) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3061170064,1)[0m
+[32m(3087722899) [INFO] [FED]   payload first int = 31[0m
+[33m(3088031799) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=31,mono_ns=418637585097,physical_ns=3088336499,logical_ns=3061170064,microstep=1,intended_ns=3061170064,intended_microstep=0
+[32m(3126137597) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3126736797) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3127420697) [INFO] [FED] First schedule_at returned 0 for desired tag: (3111170064,0)[0m
+[32m(3127899997) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3111170064,0)[0m
+[32m(3128263097) [INFO] [FED]   payload first int = 32[0m
+EVENT,NORMAL,seq=32,mono_ns=418677810395,physical_ns=3128561697,logical_ns=3111170064,microstep=0,intended_ns=3111170064,intended_microstep=0
+[32m(3172303896) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3172813196) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3173222796) [INFO] [FED] First schedule_at returned 0 for desired tag: (3161170064,0)[0m
+[32m(3173710796) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3161170064,0)[0m
+[32m(3174121796) [INFO] [FED]   payload first int = 33[0m
+EVENT,NORMAL,seq=33,mono_ns=418723743794,physical_ns=3174495096,logical_ns=3161170064,microstep=0,intended_ns=3161170064,intended_microstep=0
+[32m(3229138494) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3229571594) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3229998494) [INFO] [FED] First schedule_at returned 0 for desired tag: (3211170064,0)[0m
+[32m(3230481494) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3211170064,0)[0m
+[32m(3230733094) [INFO] [FED]   payload first int = 34[0m
+EVENT,NORMAL,seq=34,mono_ns=418780444992,physical_ns=3231196194,logical_ns=3211170064,microstep=0,intended_ns=3211170064,intended_microstep=0
+[32m(3296114892) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3296532792) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3296830192) [WARN] [SCHED] Trying to schedule event into the past at tag: (3261170064,0)[0m
+[33m(3297241092) [WARN] [SCHED] Current tag: (3261170064,0)[0m
+[32m(3297580092) [INFO] [FED] First schedule_at returned 5 for desired tag: (3261170064,0)[0m
+[33m(3297926592) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3298230192) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3261170064,1)[0m
+[32m(3298584292) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3261170064,1)[0m
+[32m(3298974592) [INFO] [FED]   payload first int = 35[0m
+[33m(3299242092) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=35,mono_ns=418848791290,physical_ns=3299542592,logical_ns=3261170064,microstep=1,intended_ns=3261170064,intended_microstep=0
+[32m(3312557992) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3312935792) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3313419992) [INFO] [FED] First schedule_at returned 0 for desired tag: (3311170064,0)[0m
+[32m(3313952192) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3311170064,0)[0m
+[32m(3314318592) [INFO] [FED]   payload first int = 36[0m
+EVENT,NORMAL,seq=36,mono_ns=418863917590,physical_ns=3314668792,logical_ns=3311170064,microstep=0,intended_ns=3311170064,intended_microstep=0
+[32m(3363003690) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3363422090) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3363868190) [INFO] [FED] First schedule_at returned 0 for desired tag: (3361170064,0)[0m
+[32m(3364410090) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3361170064,0)[0m
+[32m(3364765490) [INFO] [FED]   payload first int = 37[0m
+EVENT,NORMAL,seq=37,mono_ns=418914386888,physical_ns=3365138090,logical_ns=3361170064,microstep=0,intended_ns=3361170064,intended_microstep=0
+[32m(3442110788) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3442689388) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3443308488) [WARN] [SCHED] Trying to schedule event into the past at tag: (3411170064,0)[0m
+[33m(3443804988) [WARN] [SCHED] Current tag: (3411170064,0)[0m
+[32m(3444254988) [INFO] [FED] First schedule_at returned 5 for desired tag: (3411170064,0)[0m
+[33m(3444684388) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3445044187) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3411170064,1)[0m
+[32m(3445538387) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3411170064,1)[0m
+[32m(3445824987) [INFO] [FED]   payload first int = 38[0m
+[33m(3446091387) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=38,mono_ns=418995632985,physical_ns=3446384287,logical_ns=3411170064,microstep=1,intended_ns=3411170064,intended_microstep=0
+[32m(3462841987) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3463276987) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3463671087) [INFO] [FED] First schedule_at returned 0 for desired tag: (3461170064,0)[0m
+[32m(3464144687) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3461170064,0)[0m
+[32m(3464547087) [INFO] [FED]   payload first int = 39[0m
+EVENT,NORMAL,seq=39,mono_ns=419014153785,physical_ns=3464904987,logical_ns=3461170064,microstep=0,intended_ns=3461170064,intended_microstep=0
+[32m(3512964685) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3513447385) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3513894085) [INFO] [FED] First schedule_at returned 0 for desired tag: (3511170064,0)[0m
+[32m(3514347685) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3511170064,0)[0m
+[32m(3514712985) [INFO] [FED]   payload first int = 40[0m
+EVENT,NORMAL,seq=40,mono_ns=419064329083,physical_ns=3515080285,logical_ns=3511170064,microstep=0,intended_ns=3511170064,intended_microstep=0
+[32m(3564454784) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3564806084) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3565144584) [INFO] [FED] First schedule_at returned 0 for desired tag: (3561170064,0)[0m
+[32m(3565480484) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3561170064,0)[0m
+[32m(3565832984) [INFO] [FED]   payload first int = 41[0m
+EVENT,NORMAL,seq=41,mono_ns=419115393082,physical_ns=3566144284,logical_ns=3561170064,microstep=0,intended_ns=3561170064,intended_microstep=0
+[32m(3621378282) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3621744582) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3622181582) [INFO] [FED] First schedule_at returned 0 for desired tag: (3611170064,0)[0m
+[32m(3622541882) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3611170064,0)[0m
+[32m(3622825382) [INFO] [FED]   payload first int = 42[0m
+EVENT,NORMAL,seq=42,mono_ns=419172540680,physical_ns=3623291982,logical_ns=3611170064,microstep=0,intended_ns=3611170064,intended_microstep=0
+[32m(3675301880) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3675800780) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3676269280) [INFO] [FED] First schedule_at returned 0 for desired tag: (3661170064,0)[0m
+[32m(3676701780) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3661170064,0)[0m
+[32m(3677055280) [INFO] [FED]   payload first int = 43[0m
+EVENT,NORMAL,seq=43,mono_ns=419226665278,physical_ns=3677416580,logical_ns=3661170064,microstep=0,intended_ns=3661170064,intended_microstep=0
+[32m(3717859879) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3718361179) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3718741979) [INFO] [FED] First schedule_at returned 0 for desired tag: (3711170064,0)[0m
+[32m(3719267379) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3711170064,0)[0m
+[32m(3719616379) [INFO] [FED]   payload first int = 44[0m
+EVENT,NORMAL,seq=44,mono_ns=419269254177,physical_ns=3720005379,logical_ns=3711170064,microstep=0,intended_ns=3711170064,intended_microstep=0
+[32m(3780792277) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3781351577) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3781859677) [WARN] [SCHED] Trying to schedule event into the past at tag: (3761170064,0)[0m
+[33m(3782296577) [WARN] [SCHED] Current tag: (3761170064,0)[0m
+[32m(3782659677) [INFO] [FED] First schedule_at returned 5 for desired tag: (3761170064,0)[0m
+[33m(3783001477) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3783463077) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3761170064,1)[0m
+[32m(3783892277) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3761170064,1)[0m
+[32m(3784266477) [INFO] [FED]   payload first int = 45[0m
+[33m(3784572577) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=45,mono_ns=419334105275,physical_ns=3784856677,logical_ns=3761170064,microstep=1,intended_ns=3761170064,intended_microstep=0
+[32m(3817084476) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3817582876) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3818058376) [INFO] [FED] First schedule_at returned 0 for desired tag: (3811170064,0)[0m
+[32m(3818489676) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3811170064,0)[0m
+[32m(3818793876) [INFO] [FED]   payload first int = 46[0m
+EVENT,NORMAL,seq=46,mono_ns=419368368774,physical_ns=3819120076,logical_ns=3811170064,microstep=0,intended_ns=3811170064,intended_microstep=0
+[32m(3880427974) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3881068274) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3881501674) [WARN] [SCHED] Trying to schedule event into the past at tag: (3861170064,0)[0m
+[33m(3881911774) [WARN] [SCHED] Current tag: (3861170064,0)[0m
+[32m(3882287574) [INFO] [FED] First schedule_at returned 5 for desired tag: (3861170064,0)[0m
+[33m(3882586074) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3882923874) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3861170064,1)[0m
+[32m(3883426574) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3861170064,1)[0m
+[32m(3883821574) [INFO] [FED]   payload first int = 47[0m
+[33m(3884232874) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=47,mono_ns=419433870772,physical_ns=3884622074,logical_ns=3861170064,microstep=1,intended_ns=3861170064,intended_microstep=0
+[32m(3930364872) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3930837872) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(3931213372) [INFO] [FED] First schedule_at returned 0 for desired tag: (3911170064,0)[0m
+[32m(3931637272) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3911170064,0)[0m
+[32m(3932034172) [INFO] [FED]   payload first int = 48[0m
+EVENT,NORMAL,seq=48,mono_ns=419481646170,physical_ns=3932397472,logical_ns=3911170064,microstep=0,intended_ns=3911170064,intended_microstep=0
+[32m(3991623770) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(3992186670) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3992642870) [WARN] [SCHED] Trying to schedule event into the past at tag: (3961170064,0)[0m
+[33m(3993015070) [WARN] [SCHED] Current tag: (3961170064,0)[0m
+[32m(3993393970) [INFO] [FED] First schedule_at returned 5 for desired tag: (3961170064,0)[0m
+[33m(3993742770) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3994135270) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3961170064,1)[0m
+[32m(3994543370) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (3961170064,1)[0m
+[32m(3994911270) [INFO] [FED]   payload first int = 49[0m
+[33m(3995235370) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=49,mono_ns=419544802868,physical_ns=3995554270,logical_ns=3961170064,microstep=1,intended_ns=3961170064,intended_microstep=0
+[32m(4035597369) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4036110369) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4036677869) [WARN] [SCHED] Trying to schedule event into the past at tag: (4011170064,0)[0m
+[33m(4037120169) [WARN] [SCHED] Current tag: (4011170064,0)[0m
+[32m(4037428769) [INFO] [FED] First schedule_at returned 5 for desired tag: (4011170064,0)[0m
+[33m(4037832069) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4038223869) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4011170064,1)[0m
+[32m(4038685669) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4011170064,1)[0m
+[32m(4039086669) [INFO] [FED]   payload first int = 50[0m
+[33m(4039362169) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=50,mono_ns=419588909967,physical_ns=4039661369,logical_ns=4011170064,microstep=1,intended_ns=4011170064,intended_microstep=0
+[32m(4071721268) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4072236068) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4072586668) [INFO] [FED] First schedule_at returned 0 for desired tag: (4061170064,0)[0m
+[32m(4073063568) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4061170064,0)[0m
+[32m(4073428868) [INFO] [FED]   payload first int = 51[0m
+EVENT,NORMAL,seq=51,mono_ns=419623029766,physical_ns=4073780968,logical_ns=4061170064,microstep=0,intended_ns=4061170064,intended_microstep=0
+[32m(4125653666) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4126042366) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4126428166) [INFO] [FED] First schedule_at returned 0 for desired tag: (4111170064,0)[0m
+[32m(4126930666) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4111170064,0)[0m
+[32m(4127298666) [INFO] [FED]   payload first int = 52[0m
+EVENT,NORMAL,seq=52,mono_ns=419676882464,physical_ns=4127633666,logical_ns=4111170064,microstep=0,intended_ns=4111170064,intended_microstep=0
+[32m(4163808465) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4164210865) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4164628565) [INFO] [FED] First schedule_at returned 0 for desired tag: (4161170064,0)[0m
+[32m(4165109465) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4161170064,0)[0m
+[32m(4165570865) [INFO] [FED]   payload first int = 53[0m
+EVENT,NORMAL,seq=53,mono_ns=419715124463,physical_ns=4165875665,logical_ns=4161170064,microstep=0,intended_ns=4161170064,intended_microstep=0
+[32m(4220504263) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4221127463) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4221708863) [INFO] [FED] First schedule_at returned 0 for desired tag: (4211170064,0)[0m
+[32m(4222226263) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4211170064,0)[0m
+[32m(4222514463) [INFO] [FED]   payload first int = 54[0m
+EVENT,NORMAL,seq=54,mono_ns=419772038461,physical_ns=4222789763,logical_ns=4211170064,microstep=0,intended_ns=4211170064,intended_microstep=0
+[32m(4277446062) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4278028962) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4278565062) [INFO] [FED] First schedule_at returned 0 for desired tag: (4261170064,0)[0m
+[32m(4279042362) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4261170064,0)[0m
+[32m(4279394062) [INFO] [FED]   payload first int = 55[0m
+EVENT,NORMAL,seq=55,mono_ns=419829028759,physical_ns=4279780061,logical_ns=4261170064,microstep=0,intended_ns=4261170064,intended_microstep=0
+[32m(4312284760) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4312672960) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4313037760) [INFO] [FED] First schedule_at returned 0 for desired tag: (4311170064,0)[0m
+[32m(4313498860) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4311170064,0)[0m
+[32m(4313900360) [INFO] [FED]   payload first int = 56[0m
+EVENT,NORMAL,seq=56,mono_ns=419863487258,physical_ns=4314238560,logical_ns=4311170064,microstep=0,intended_ns=4311170064,intended_microstep=0
+[32m(4372848659) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4373391859) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4373866059) [INFO] [FED] First schedule_at returned 0 for desired tag: (4361170064,0)[0m
+[32m(4374314759) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4361170064,0)[0m
+[32m(4374705659) [INFO] [FED]   payload first int = 57[0m
+EVENT,NORMAL,seq=57,mono_ns=419924343357,physical_ns=4375094559,logical_ns=4361170064,microstep=0,intended_ns=4361170064,intended_microstep=0
+[32m(4443674956) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4444216556) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4444660756) [WARN] [SCHED] Trying to schedule event into the past at tag: (4411170064,0)[0m
+[33m(4445109956) [WARN] [SCHED] Current tag: (4411170064,0)[0m
+[32m(4445523556) [INFO] [FED] First schedule_at returned 5 for desired tag: (4411170064,0)[0m
+[33m(4445887556) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4446240656) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4411170064,1)[0m
+[32m(4446596356) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4411170064,1)[0m
+[32m(4446825656) [INFO] [FED]   payload first int = 58[0m
+[33m(4447156156) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=58,mono_ns=419996701054,physical_ns=4447452456,logical_ns=4411170064,microstep=1,intended_ns=4411170064,intended_microstep=0
+[32m(4471525756) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4472138655) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4472620455) [INFO] [FED] First schedule_at returned 0 for desired tag: (4461170064,0)[0m
+[32m(4473107355) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4461170064,0)[0m
+[32m(4473549855) [INFO] [FED]   payload first int = 59[0m
+EVENT,NORMAL,seq=59,mono_ns=420023107453,physical_ns=4473858655,logical_ns=4461170064,microstep=0,intended_ns=4461170064,intended_microstep=0
+[32m(4512516754) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4512890654) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4513300854) [INFO] [FED] First schedule_at returned 0 for desired tag: (4511170064,0)[0m
+[32m(4513754454) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4511170064,0)[0m
+[32m(4514142454) [INFO] [FED]   payload first int = 60[0m
+EVENT,NORMAL,seq=60,mono_ns=420063720752,physical_ns=4514471954,logical_ns=4511170064,microstep=0,intended_ns=4511170064,intended_microstep=0
+[32m(4584576152) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4585146652) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4585673852) [WARN] [SCHED] Trying to schedule event into the past at tag: (4561170064,0)[0m
+[33m(4586137152) [WARN] [SCHED] Current tag: (4561170064,0)[0m
+[32m(4586554752) [INFO] [FED] First schedule_at returned 5 for desired tag: (4561170064,0)[0m
+[33m(4586881552) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4587337652) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4561170064,1)[0m
+[32m(4587765252) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4561170064,1)[0m
+[32m(4588131152) [INFO] [FED]   payload first int = 61[0m
+[33m(4588392752) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=61,mono_ns=420137899250,physical_ns=4588650652,logical_ns=4561170064,microstep=1,intended_ns=4561170064,intended_microstep=0
+[32m(4631087051) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4631679251) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4632181851) [WARN] [SCHED] Trying to schedule event into the past at tag: (4611170064,0)[0m
+[33m(4632523351) [WARN] [SCHED] Current tag: (4611170064,0)[0m
+[32m(4632931550) [INFO] [FED] First schedule_at returned 5 for desired tag: (4611170064,0)[0m
+[33m(4633369350) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4633775950) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4611170064,1)[0m
+[32m(4634134550) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4611170064,1)[0m
+[32m(4634453550) [INFO] [FED]   payload first int = 62[0m
+[33m(4634867650) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=62,mono_ns=420184440248,physical_ns=4635191650,logical_ns=4611170064,microstep=1,intended_ns=4611170064,intended_microstep=0
+[32m(4667631349) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4668240449) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4668676449) [INFO] [FED] First schedule_at returned 0 for desired tag: (4661170064,0)[0m
+[32m(4669174649) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4661170064,0)[0m
+[32m(4669542349) [INFO] [FED]   payload first int = 63[0m
+EVENT,NORMAL,seq=63,mono_ns=420219155347,physical_ns=4669906649,logical_ns=4661170064,microstep=0,intended_ns=4661170064,intended_microstep=0
+[32m(4726837648) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4727303048) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4727716348) [INFO] [FED] First schedule_at returned 0 for desired tag: (4711170064,0)[0m
+[32m(4728100448) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4711170064,0)[0m
+[32m(4728415148) [INFO] [FED]   payload first int = 64[0m
+EVENT,NORMAL,seq=64,mono_ns=420277955246,physical_ns=4728706548,logical_ns=4711170064,microstep=0,intended_ns=4711170064,intended_microstep=0
+[32m(4763034246) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4763416446) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4763798346) [INFO] [FED] First schedule_at returned 0 for desired tag: (4761170064,0)[0m
+[32m(4764293146) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4761170064,0)[0m
+[32m(4764639746) [INFO] [FED]   payload first int = 65[0m
+EVENT,NORMAL,seq=65,mono_ns=420314211644,physical_ns=4764962846,logical_ns=4761170064,microstep=0,intended_ns=4761170064,intended_microstep=0
+[32m(4812981345) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4813427445) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4813800445) [INFO] [FED] First schedule_at returned 0 for desired tag: (4811170064,0)[0m
+[32m(4814229445) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4811170064,0)[0m
+[32m(4814569245) [INFO] [FED]   payload first int = 66[0m
+EVENT,NORMAL,seq=66,mono_ns=420364059043,physical_ns=4814810245,logical_ns=4811170064,microstep=0,intended_ns=4811170064,intended_microstep=0
+[32m(4867821843) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4868425943) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4868963343) [INFO] [FED] First schedule_at returned 0 for desired tag: (4861170064,0)[0m
+[32m(4869444943) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4861170064,0)[0m
+[32m(4869837143) [INFO] [FED]   payload first int = 67[0m
+EVENT,NORMAL,seq=67,mono_ns=420419504341,physical_ns=4870255543,logical_ns=4861170064,microstep=0,intended_ns=4861170064,intended_microstep=0
+[32m(4928115341) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4928700741) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4929185841) [INFO] [FED] First schedule_at returned 0 for desired tag: (4911170064,0)[0m
+[32m(4929643241) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4911170064,0)[0m
+[32m(4930053241) [INFO] [FED]   payload first int = 68[0m
+EVENT,NORMAL,seq=68,mono_ns=420479652139,physical_ns=4930403341,logical_ns=4911170064,microstep=0,intended_ns=4911170064,intended_microstep=0
+[32m(4962724740) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(4963091140) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(4963469840) [INFO] [FED] First schedule_at returned 0 for desired tag: (4961170064,0)[0m
+[32m(4963894040) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (4961170064,0)[0m
+[32m(4964218440) [INFO] [FED]   payload first int = 69[0m
+EVENT,NORMAL,seq=69,mono_ns=420513758338,physical_ns=4964509640,logical_ns=4961170064,microstep=0,intended_ns=4961170064,intended_microstep=0
+[32m(5024728438) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5025303938) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5025751538) [INFO] [FED] First schedule_at returned 0 for desired tag: (5011170064,0)[0m
+[32m(5026321338) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5011170064,0)[0m
+[32m(5026723538) [INFO] [FED]   payload first int = 70[0m
+EVENT,NORMAL,seq=70,mono_ns=420576370336,physical_ns=5027121638,logical_ns=5011170064,microstep=0,intended_ns=5011170064,intended_microstep=0
+[32m(5073397837) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5074082437) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5074645637) [INFO] [FED] First schedule_at returned 0 for desired tag: (5061170064,0)[0m
+[32m(5075136537) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5061170064,0)[0m
+[32m(5075570837) [INFO] [FED]   payload first int = 71[0m
+EVENT,NORMAL,seq=71,mono_ns=420625202435,physical_ns=5075953637,logical_ns=5061170064,microstep=0,intended_ns=5061170064,intended_microstep=0
+[32m(5113002136) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5113395036) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5113770436) [INFO] [FED] First schedule_at returned 0 for desired tag: (5111170064,0)[0m
+[32m(5114307635) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5111170064,0)[0m
+[32m(5114654135) [INFO] [FED]   payload first int = 72[0m
+EVENT,NORMAL,seq=72,mono_ns=420664228533,physical_ns=5114979735,logical_ns=5111170064,microstep=0,intended_ns=5111170064,intended_microstep=0
+[32m(5171955434) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5172435434) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5172853934) [INFO] [FED] First schedule_at returned 0 for desired tag: (5161170064,0)[0m
+[32m(5173310834) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5161170064,0)[0m
+[32m(5173757334) [INFO] [FED]   payload first int = 73[0m
+EVENT,NORMAL,seq=73,mono_ns=420723341332,physical_ns=5174092534,logical_ns=5161170064,microstep=0,intended_ns=5161170064,intended_microstep=0
+[32m(5222842932) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5223346232) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5223799832) [INFO] [FED] First schedule_at returned 0 for desired tag: (5211170064,0)[0m
+[32m(5224289232) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5211170064,0)[0m
+[32m(5224673332) [INFO] [FED]   payload first int = 74[0m
+EVENT,NORMAL,seq=74,mono_ns=420774337330,physical_ns=5225088532,logical_ns=5211170064,microstep=0,intended_ns=5211170064,intended_microstep=0
+[32m(5263702231) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5264217231) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5264729931) [INFO] [FED] First schedule_at returned 0 for desired tag: (5261170064,0)[0m
+[32m(5265197231) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5261170064,0)[0m
+[32m(5265526931) [INFO] [FED]   payload first int = 75[0m
+EVENT,NORMAL,seq=75,mono_ns=420815174929,physical_ns=5265926131,logical_ns=5261170064,microstep=0,intended_ns=5261170064,intended_microstep=0
+[32m(5312641829) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5313011229) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5313423029) [INFO] [FED] First schedule_at returned 0 for desired tag: (5311170064,0)[0m
+[32m(5313818729) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5311170064,0)[0m
+[32m(5314146129) [INFO] [FED]   payload first int = 76[0m
+EVENT,NORMAL,seq=76,mono_ns=420863704927,physical_ns=5314456229,logical_ns=5311170064,microstep=0,intended_ns=5311170064,intended_microstep=0
+[32m(5374379827) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5374953027) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5375504027) [INFO] [FED] First schedule_at returned 0 for desired tag: (5361170064,0)[0m
+[32m(5375997827) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5361170064,0)[0m
+[32m(5376323927) [INFO] [FED]   payload first int = 77[0m
+EVENT,NORMAL,seq=77,mono_ns=420925909025,physical_ns=5376660227,logical_ns=5361170064,microstep=0,intended_ns=5361170064,intended_microstep=0
+[32m(5424045226) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5424630926) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5425152326) [INFO] [FED] First schedule_at returned 0 for desired tag: (5411170064,0)[0m
+[32m(5425699326) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5411170064,0)[0m
+[32m(5426127226) [INFO] [FED]   payload first int = 78[0m
+EVENT,NORMAL,seq=78,mono_ns=420975761524,physical_ns=5426512726,logical_ns=5411170064,microstep=0,intended_ns=5411170064,intended_microstep=0
+[32m(5470082324) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5470676524) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5471184324) [INFO] [FED] First schedule_at returned 0 for desired tag: (5461170064,0)[0m
+[32m(5471722124) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5461170064,0)[0m
+[32m(5472183324) [INFO] [FED]   payload first int = 79[0m
+EVENT,NORMAL,seq=79,mono_ns=421021757222,physical_ns=5472508424,logical_ns=5461170064,microstep=0,intended_ns=5461170064,intended_microstep=0
+[32m(5527532623) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5528164623) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5528650123) [INFO] [FED] First schedule_at returned 0 for desired tag: (5511170064,0)[0m
+[32m(5529255923) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5511170064,0)[0m
+[32m(5529691823) [INFO] [FED]   payload first int = 80[0m
+EVENT,NORMAL,seq=80,mono_ns=421079292021,physical_ns=5530043223,logical_ns=5511170064,microstep=0,intended_ns=5511170064,intended_microstep=0
+[32m(5572300021) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5572879721) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5573423421) [INFO] [FED] First schedule_at returned 0 for desired tag: (5561170064,0)[0m
+[32m(5573913021) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5561170064,0)[0m
+[32m(5574383421) [INFO] [FED]   payload first int = 81[0m
+EVENT,NORMAL,seq=81,mono_ns=421123945619,physical_ns=5574696821,logical_ns=5561170064,microstep=0,intended_ns=5561170064,intended_microstep=0
+[32m(5615202520) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5615761120) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5616231020) [INFO] [FED] First schedule_at returned 0 for desired tag: (5611170064,0)[0m
+[32m(5616708520) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5611170064,0)[0m
+[32m(5617040020) [INFO] [FED]   payload first int = 82[0m
+EVENT,NORMAL,seq=82,mono_ns=421166617818,physical_ns=5617369020,logical_ns=5611170064,microstep=0,intended_ns=5611170064,intended_microstep=0
+[32m(5679621118) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5680086918) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5680506318) [INFO] [FED] First schedule_at returned 0 for desired tag: (5661170064,0)[0m
+[32m(5680886018) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5661170064,0)[0m
+[32m(5681173118) [INFO] [FED]   payload first int = 83[0m
+EVENT,NORMAL,seq=83,mono_ns=421230733116,physical_ns=5681484418,logical_ns=5661170064,microstep=0,intended_ns=5661170064,intended_microstep=0
+[32m(5726137916) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5726668016) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5727198816) [INFO] [FED] First schedule_at returned 0 for desired tag: (5711170064,0)[0m
+[32m(5727678416) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5711170064,0)[0m
+[32m(5728035416) [INFO] [FED]   payload first int = 84[0m
+EVENT,NORMAL,seq=84,mono_ns=421277644514,physical_ns=5728395716,logical_ns=5711170064,microstep=0,intended_ns=5711170064,intended_microstep=0
+[32m(5762820715) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5763093315) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5763456315) [INFO] [FED] First schedule_at returned 0 for desired tag: (5761170064,0)[0m
+[32m(5763779515) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5761170064,0)[0m
+[32m(5764078315) [INFO] [FED]   payload first int = 85[0m
+EVENT,NORMAL,seq=85,mono_ns=421313577413,physical_ns=5764328615,logical_ns=5761170064,microstep=0,intended_ns=5761170064,intended_microstep=0
+[32m(5830819813) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5831309813) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5831717513) [WARN] [SCHED] Trying to schedule event into the past at tag: (5811170064,0)[0m
+[33m(5831982413) [WARN] [SCHED] Current tag: (5811170064,0)[0m
+[32m(5832247413) [INFO] [FED] First schedule_at returned 5 for desired tag: (5811170064,0)[0m
+[33m(5832573313) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5832858613) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5811170064,1)[0m
+[32m(5833113513) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5811170064,1)[0m
+[32m(5833409313) [INFO] [FED]   payload first int = 86[0m
+[33m(5833716013) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=86,mono_ns=421383300211,physical_ns=5834051613,logical_ns=5811170064,microstep=1,intended_ns=5811170064,intended_microstep=0
+[32m(5883112112) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5883545612) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5883807912) [WARN] [SCHED] Trying to schedule event into the past at tag: (5861170064,0)[0m
+[33m(5884160812) [WARN] [SCHED] Current tag: (5861170064,0)[0m
+[32m(5884486312) [INFO] [FED] First schedule_at returned 5 for desired tag: (5861170064,0)[0m
+[33m(5884784111) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5885068711) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5861170064,1)[0m
+[32m(5885349311) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5861170064,1)[0m
+[32m(5885643411) [INFO] [FED]   payload first int = 87[0m
+[33m(5885944211) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=87,mono_ns=421435477809,physical_ns=5886229211,logical_ns=5861170064,microstep=1,intended_ns=5861170064,intended_microstep=0
+[32m(5921641510) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5922182410) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5922615810) [INFO] [FED] First schedule_at returned 0 for desired tag: (5911170064,0)[0m
+[32m(5922906410) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5911170064,0)[0m
+[32m(5923282610) [INFO] [FED]   payload first int = 88[0m
+EVENT,NORMAL,seq=88,mono_ns=421472910008,physical_ns=5923661210,logical_ns=5911170064,microstep=0,intended_ns=5911170064,intended_microstep=0
+[32m(5962951409) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(5963313609) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(5963705309) [INFO] [FED] First schedule_at returned 0 for desired tag: (5961170064,0)[0m
+[32m(5964044809) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (5961170064,0)[0m
+[32m(5964470409) [INFO] [FED]   payload first int = 89[0m
+EVENT,NORMAL,seq=89,mono_ns=421514103007,physical_ns=5964854209,logical_ns=5961170064,microstep=0,intended_ns=5961170064,intended_microstep=0
+[32m(6012761408) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6013120907) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6013475007) [INFO] [FED] First schedule_at returned 0 for desired tag: (6011170064,0)[0m
+[32m(6013826007) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6011170064,0)[0m
+[32m(6014194207) [INFO] [FED]   payload first int = 90[0m
+EVENT,NORMAL,seq=90,mono_ns=421563793605,physical_ns=6014544807,logical_ns=6011170064,microstep=0,intended_ns=6011170064,intended_microstep=0
+[32m(6091760005) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6092307905) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6092796905) [WARN] [SCHED] Trying to schedule event into the past at tag: (6061170064,0)[0m
+[33m(6093064405) [WARN] [SCHED] Current tag: (6061170064,0)[0m
+[32m(6093341405) [INFO] [FED] First schedule_at returned 5 for desired tag: (6061170064,0)[0m
+[33m(6093584105) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6093859805) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6061170064,1)[0m
+[32m(6094168305) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6061170064,1)[0m
+[32m(6094488105) [INFO] [FED]   payload first int = 91[0m
+[33m(6094794005) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=91,mono_ns=421644414503,physical_ns=6095165805,logical_ns=6061170064,microstep=1,intended_ns=6061170064,intended_microstep=0
+[32m(6141585803) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6142095103) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6142546803) [WARN] [SCHED] Trying to schedule event into the past at tag: (6111170064,0)[0m
+[33m(6142976303) [WARN] [SCHED] Current tag: (6111170064,0)[0m
+[32m(6143413003) [INFO] [FED] First schedule_at returned 5 for desired tag: (6111170064,0)[0m
+[33m(6143790303) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6144183103) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6111170064,1)[0m
+[32m(6144663403) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6111170064,1)[0m
+[32m(6144981103) [INFO] [FED]   payload first int = 92[0m
+[33m(6145264703) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=92,mono_ns=421694760801,physical_ns=6145512103,logical_ns=6111170064,microstep=1,intended_ns=6111170064,intended_microstep=0
+[32m(6170496703) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6171052103) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6171575203) [INFO] [FED] First schedule_at returned 0 for desired tag: (6161170064,0)[0m
+[32m(6172111803) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6161170064,0)[0m
+[32m(6172470203) [INFO] [FED]   payload first int = 93[0m
+EVENT,NORMAL,seq=93,mono_ns=421722129701,physical_ns=6172881303,logical_ns=6161170064,microstep=0,intended_ns=6161170064,intended_microstep=0
+[32m(6212478101) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6212760701) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6213119001) [INFO] [FED] First schedule_at returned 0 for desired tag: (6211170064,0)[0m
+[32m(6213388501) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6211170064,0)[0m
+[32m(6213669901) [INFO] [FED]   payload first int = 94[0m
+EVENT,NORMAL,seq=94,mono_ns=421763185499,physical_ns=6213936701,logical_ns=6211170064,microstep=0,intended_ns=6211170064,intended_microstep=0
+[32m(6274649499) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6275033599) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6275483499) [INFO] [FED] First schedule_at returned 0 for desired tag: (6261170064,0)[0m
+[32m(6275882999) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6261170064,0)[0m
+[32m(6276328999) [INFO] [FED]   payload first int = 95[0m
+EVENT,NORMAL,seq=95,mono_ns=421825972697,physical_ns=6276723899,logical_ns=6261170064,microstep=0,intended_ns=6261170064,intended_microstep=0
+[32m(6324207498) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6324635098) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6325141298) [INFO] [FED] First schedule_at returned 0 for desired tag: (6311170064,0)[0m
+[32m(6325575398) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6311170064,0)[0m
+[32m(6325994398) [INFO] [FED]   payload first int = 96[0m
+EVENT,NORMAL,seq=96,mono_ns=421875564396,physical_ns=6326315598,logical_ns=6311170064,microstep=0,intended_ns=6311170064,intended_microstep=0
+[32m(6367406096) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6367942596) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6368415896) [INFO] [FED] First schedule_at returned 0 for desired tag: (6361170064,0)[0m
+[32m(6368704496) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6361170064,0)[0m
+[32m(6369064896) [INFO] [FED]   payload first int = 97[0m
+EVENT,NORMAL,seq=97,mono_ns=421918697494,physical_ns=6369448696,logical_ns=6361170064,microstep=0,intended_ns=6361170064,intended_microstep=0
+[32m(6436650294) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6437141294) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6437555994) [WARN] [SCHED] Trying to schedule event into the past at tag: (6411170064,0)[0m
+[33m(6437958094) [WARN] [SCHED] Current tag: (6411170064,0)[0m
+[32m(6438305994) [INFO] [FED] First schedule_at returned 5 for desired tag: (6411170064,0)[0m
+[33m(6438606294) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6438978494) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6411170064,1)[0m
+[32m(6439427494) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6411170064,1)[0m
+[32m(6439823394) [INFO] [FED]   payload first int = 98[0m
+[33m(6440145094) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=98,mono_ns=421989671292,physical_ns=6440422694,logical_ns=6411170064,microstep=1,intended_ns=6411170064,intended_microstep=0
+[32m(6472712893) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6473145993) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6473553093) [INFO] [FED] First schedule_at returned 0 for desired tag: (6461170064,0)[0m
+[32m(6473918493) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6461170064,0)[0m
+[32m(6474304693) [INFO] [FED]   payload first int = 99[0m
+EVENT,NORMAL,seq=99,mono_ns=422023903291,physical_ns=6474654493,logical_ns=6461170064,microstep=0,intended_ns=6461170064,intended_microstep=0
+[32m(6521725392) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6522304292) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6522687392) [INFO] [FED] First schedule_at returned 0 for desired tag: (6511170064,0)[0m
+[32m(6523007692) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6511170064,0)[0m
+[32m(6523390292) [INFO] [FED]   payload first int = 100[0m
+EVENT,NORMAL,seq=100,mono_ns=422073018490,physical_ns=6523769692,logical_ns=6511170064,microstep=0,intended_ns=6511170064,intended_microstep=0
+[32m(6577239290) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6577606890) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6578086690) [INFO] [FED] First schedule_at returned 0 for desired tag: (6561170064,0)[0m
+[32m(6578453690) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6561170064,0)[0m
+[32m(6578972690) [INFO] [FED]   payload first int = 101[0m
+EVENT,NORMAL,seq=101,mono_ns=422128562088,physical_ns=6579313290,logical_ns=6561170064,microstep=0,intended_ns=6561170064,intended_microstep=0
+[32m(6612940289) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6613356089) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6613757589) [INFO] [FED] First schedule_at returned 0 for desired tag: (6611170064,0)[0m
+[32m(6614147289) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6611170064,0)[0m
+[32m(6614578389) [INFO] [FED]   payload first int = 102[0m
+EVENT,NORMAL,seq=102,mono_ns=422164238887,physical_ns=6614990089,logical_ns=6611170064,microstep=0,intended_ns=6611170064,intended_microstep=0
+[32m(6683364887) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6683859687) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6684326787) [WARN] [SCHED] Trying to schedule event into the past at tag: (6661170064,0)[0m
+[33m(6684742187) [WARN] [SCHED] Current tag: (6661170064,0)[0m
+[32m(6685042387) [INFO] [FED] First schedule_at returned 5 for desired tag: (6661170064,0)[0m
+[33m(6685445087) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6685841687) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6661170064,1)[0m
+[32m(6686136387) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6661170064,1)[0m
+[32m(6686410387) [INFO] [FED]   payload first int = 103[0m
+[33m(6686691687) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=103,mono_ns=422236226185,physical_ns=6686977587,logical_ns=6661170064,microstep=1,intended_ns=6661170064,intended_microstep=0
+[32m(6723109985) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6723720585) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6724180085) [INFO] [FED] First schedule_at returned 0 for desired tag: (6711170064,0)[0m
+[32m(6724614085) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6711170064,0)[0m
+[32m(6725002085) [INFO] [FED]   payload first int = 104[0m
+EVENT,NORMAL,seq=104,mono_ns=422274570483,physical_ns=6725321685,logical_ns=6711170064,microstep=0,intended_ns=6711170064,intended_microstep=0
+[32m(6764868184) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6765296384) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6765701584) [INFO] [FED] First schedule_at returned 0 for desired tag: (6761170064,0)[0m
+[32m(6766055684) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6761170064,0)[0m
+[32m(6766418984) [INFO] [FED]   payload first int = 105[0m
+EVENT,NORMAL,seq=105,mono_ns=422315974482,physical_ns=6766725684,logical_ns=6761170064,microstep=0,intended_ns=6761170064,intended_microstep=0
+[32m(6814120483) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6814346983) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6814674183) [INFO] [FED] First schedule_at returned 0 for desired tag: (6811170064,0)[0m
+[32m(6815009183) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6811170064,0)[0m
+[32m(6815324283) [INFO] [FED]   payload first int = 106[0m
+EVENT,NORMAL,seq=106,mono_ns=422364839481,physical_ns=6815590783,logical_ns=6811170064,microstep=0,intended_ns=6811170064,intended_microstep=0
+[32m(6864879381) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6865314781) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6865750281) [INFO] [FED] First schedule_at returned 0 for desired tag: (6861170064,0)[0m
+[32m(6866074481) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6861170064,0)[0m
+[32m(6866460881) [INFO] [FED]   payload first int = 107[0m
+EVENT,NORMAL,seq=107,mono_ns=422416077279,physical_ns=6866828581,logical_ns=6861170064,microstep=0,intended_ns=6861170064,intended_microstep=0
+[32m(6938843179) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6939337679) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6939736379) [WARN] [SCHED] Trying to schedule event into the past at tag: (6911170064,0)[0m
+[33m(6940143379) [WARN] [SCHED] Current tag: (6911170064,0)[0m
+[32m(6940490879) [INFO] [FED] First schedule_at returned 5 for desired tag: (6911170064,0)[0m
+[33m(6940832079) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6941219379) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6911170064,1)[0m
+[32m(6941654379) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6911170064,1)[0m
+[32m(6942086379) [INFO] [FED]   payload first int = 108[0m
+[33m(6942400879) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=108,mono_ns=422491936077,physical_ns=6942687379,logical_ns=6911170064,microstep=1,intended_ns=6911170064,intended_microstep=0
+[32m(6962991678) [INFO] [FED] Allocated payload for input 0x6319914d81c0 (pool payload_size=4)[0m
+[32m(6963318278) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[32m(6963661878) [INFO] [FED] First schedule_at returned 0 for desired tag: (6961170064,0)[0m
+[32m(6964095078) [INFO] [FED] FederatedInputConnection 0x6319914d81c0 preparing downstream port 0x6319914d67c0 for tag: (6961170064,0)[0m
+[32m(6964499378) [INFO] [FED]   payload first int = 109[0m
+EVENT,NORMAL,seq=109,mono_ns=422514200476,physical_ns=6964951678,logical_ns=6961170064,microstep=0,intended_ns=6961170064,intended_microstep=0
+[33m(9029685314) [WARN] [NET] TcpIpChannel: [server] Other federate closed socket[0m
+[32m(9030272814) [INFO] [SCHED] Scheduler terminating at tag (9011170064,0)[0m
+SUMMARY,role=receiver,normal=81,tardy=19,warmup=10
+[32m(9031200514) [INFO] [ENV] Reactor shutting down, freeing federated environment.[0m
+[32m(9032165813) [INFO] [ENV] All Network Channels freed. Exiting.[0m

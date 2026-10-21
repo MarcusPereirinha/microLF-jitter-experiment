@@ -1,0 +1,29 @@
+{
+  "period_ms": 50,
+  "maxwait_ms": 20,
+  "warmup_events": 10,
+  "measured_events": 100,
+  "grace_period_ms": 2000,
+  "run_id": "C3_rep05_20261021T141155604010994",
+  "scenario": "C3",
+  "repetition": 5,
+  "phase": "final",
+  "campaign_id": "v0_20261021T140846_final",
+  "seed": 999750638,
+  "base_delay_ms": 10,
+  "configured_jitter_ms": 15,
+  "distribution": "normal",
+  "reactor_uc_commit": "e2d9a9fa79620f4f9152ebff2350884e5b5bcb0a",
+  "source_sha256": "2dd20441bcfdef8a49a38beba4a126b55be71e101743e8ded12f86c65c87956e",
+  "config_sha256": "d57f6bab91cb0c90eacbd597045f7dfd016213f02c252b139803270500db0c0a",
+  "clock_epoch_ns": 1792591914767837984,
+  "physical_instrumentation": "CLOCK_MONOTONIC",
+  "started_utc": "2026-10-21T14:11:55Z",
+  "exit_codes": {
+    "receiver": 0,
+    "sender": 0
+  },
+  "receiver_binary_sha256": "280e074db4676b220c5ef87cc99b533434818480e1834f49b7856f41a0570d93",
+  "sender_binary_sha256": "c8e1977dca822d060a5ec480dfe2301437b46c86efd78cac4d8e070dae1c3a9a",
+  "finished_utc": "2026-10-21T14:12:03Z"
+}

@@ -1,0 +1,29 @@
+{
+  "period_ms": 50,
+  "maxwait_ms": 20,
+  "warmup_events": 10,
+  "measured_events": 100,
+  "grace_period_ms": 2000,
+  "run_id": "PROBE_rep01_20261021T140446698268800",
+  "scenario": "PROBE",
+  "repetition": 1,
+  "phase": "probe",
+  "campaign_id": "v0_20261021T140446_probe",
+  "seed": 20261020,
+  "base_delay_ms": 80,
+  "configured_jitter_ms": 0,
+  "distribution": "none",
+  "reactor_uc_commit": "e2d9a9fa79620f4f9152ebff2350884e5b5bcb0a",
+  "source_sha256": "95a6094e46e9ab22e913e058641e33a5eb950e9a455dc0380c7ad91b8e30178c",
+  "config_sha256": "d57f6bab91cb0c90eacbd597045f7dfd016213f02c252b139803270500db0c0a",
+  "clock_epoch_ns": 1792591485934120600,
+  "physical_instrumentation": "CLOCK_MONOTONIC",
+  "started_utc": "2026-10-21T14:04:46Z",
+  "exit_codes": {
+    "receiver": 0,
+    "sender": 0
+  },
+  "receiver_binary_sha256": "8346e073ac263e08a06bd3ec0caa9c1e254129d1ce5ffb8b78145e8abbee2706",
+  "sender_binary_sha256": "c8e1977dca822d060a5ec480dfe2301437b46c86efd78cac4d8e070dae1c3a9a",
+  "finished_utc": "2026-10-21T14:04:55Z"
+}

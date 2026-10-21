@@ -1,0 +1,234 @@
+[32m(1047595995) [INFO] [NET] TcpIpChannel: [client] Connected to server on 127.0.0.1:15042[0m
+[32m(1297970766) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1318262764) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1339061961) [INFO] [FED] Handle: Handshake Response Tag System Event[0m
+[32m(1389542656) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(1401214354) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(1401215654) [INFO] [FED] Start time negotiation completed Starting at 1489544856[0m
+[32m(1401216254) [INFO] [FED] Self: 0x61ab8cbfd900 Scheduler: 0x61ab8cbfd040[0m
+START,role=sender
+EVENT,SENT,seq=0,mono_ns=271009892778,physical_ns=1489734544,logical_ns=1489544856,microstep=0,intended_ns=1489544856,intended_microstep=0
+[32m(1489738644) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=1,mono_ns=271060259672,physical_ns=1540102438,logical_ns=1539544856,microstep=0,intended_ns=1539544856,intended_microstep=0
+[32m(1540107938) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+[32m(1548459837) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+EVENT,SENT,seq=2,mono_ns=271109886967,physical_ns=1589728933,logical_ns=1589544856,microstep=0,intended_ns=1589544856,intended_microstep=0
+[32m(1589734533) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=3,mono_ns=271159838661,physical_ns=1639681027,logical_ns=1639544856,microstep=0,intended_ns=1639544856,intended_microstep=0
+[32m(1639686327) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=4,mono_ns=271209839955,physical_ns=1689682221,logical_ns=1689544856,microstep=0,intended_ns=1689544856,intended_microstep=0
+[32m(1689687921) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=5,mono_ns=271260207250,physical_ns=1740049516,logical_ns=1739544856,microstep=0,intended_ns=1739544856,intended_microstep=0
+[32m(1740069116) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=6,mono_ns=271310248344,physical_ns=1790090710,logical_ns=1789544856,microstep=0,intended_ns=1789544856,intended_microstep=0
+[32m(1790097510) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=7,mono_ns=271360188038,physical_ns=1840030404,logical_ns=1839544856,microstep=0,intended_ns=1839544856,intended_microstep=0
+[32m(1840035704) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=8,mono_ns=271410157932,physical_ns=1890000098,logical_ns=1889544856,microstep=0,intended_ns=1889544856,intended_microstep=0
+[32m(1890004798) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=9,mono_ns=271459866227,physical_ns=1939708693,logical_ns=1939544856,microstep=0,intended_ns=1939544856,intended_microstep=0
+[32m(1939714693) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=10,mono_ns=271509811921,physical_ns=1989654087,logical_ns=1989544856,microstep=0,intended_ns=1989544856,intended_microstep=0
+[32m(1989659787) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=11,mono_ns=271559851215,physical_ns=2039693681,logical_ns=2039544856,microstep=0,intended_ns=2039544856,intended_microstep=0
+[32m(2039698481) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=12,mono_ns=271609828209,physical_ns=2089670475,logical_ns=2089544856,microstep=0,intended_ns=2089544856,intended_microstep=0
+[32m(2089676575) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=13,mono_ns=271659822604,physical_ns=2139664770,logical_ns=2139544856,microstep=0,intended_ns=2139544856,intended_microstep=0
+[32m(2139669770) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=14,mono_ns=271709854598,physical_ns=2189697164,logical_ns=2189544856,microstep=0,intended_ns=2189544856,intended_microstep=0
+[32m(2189704864) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=15,mono_ns=271760018992,physical_ns=2239861058,logical_ns=2239544856,microstep=0,intended_ns=2239544856,intended_microstep=0
+[32m(2240214758) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=16,mono_ns=271810190987,physical_ns=2290033653,logical_ns=2289544856,microstep=0,intended_ns=2289544856,intended_microstep=0
+[32m(2290460652) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=17,mono_ns=271860256681,physical_ns=2340099247,logical_ns=2339544856,microstep=0,intended_ns=2339544856,intended_microstep=0
+[32m(2340621347) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=18,mono_ns=271909866875,physical_ns=2389709041,logical_ns=2389544856,microstep=0,intended_ns=2389544856,intended_microstep=0
+[32m(2390085841) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=19,mono_ns=271960163869,physical_ns=2440005935,logical_ns=2439544856,microstep=0,intended_ns=2439544856,intended_microstep=0
+[32m(2440438035) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=20,mono_ns=272010228464,physical_ns=2490070530,logical_ns=2489544856,microstep=0,intended_ns=2489544856,intended_microstep=0
+[32m(2490567130) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=21,mono_ns=272059874758,physical_ns=2539716824,logical_ns=2539544856,microstep=0,intended_ns=2539544856,intended_microstep=0
+[32m(2540020824) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=22,mono_ns=272110275252,physical_ns=2590117418,logical_ns=2589544856,microstep=0,intended_ns=2589544856,intended_microstep=0
+[32m(2590540718) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=23,mono_ns=272159953946,physical_ns=2639796112,logical_ns=2639544856,microstep=0,intended_ns=2639544856,intended_microstep=0
+[32m(2640215512) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=24,mono_ns=272210261741,physical_ns=2690104007,logical_ns=2689544856,microstep=0,intended_ns=2689544856,intended_microstep=0
+[32m(2690588107) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=25,mono_ns=272260202735,physical_ns=2740044801,logical_ns=2739544856,microstep=0,intended_ns=2739544856,intended_microstep=0
+[32m(2740401601) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=26,mono_ns=272310202829,physical_ns=2790044995,logical_ns=2789544856,microstep=0,intended_ns=2789544856,intended_microstep=0
+[32m(2790490895) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=27,mono_ns=272359901924,physical_ns=2839744190,logical_ns=2839544856,microstep=0,intended_ns=2839544856,intended_microstep=0
+[32m(2840013590) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=28,mono_ns=272409864418,physical_ns=2889706584,logical_ns=2889544856,microstep=0,intended_ns=2889544856,intended_microstep=0
+[32m(2890109284) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=29,mono_ns=272460245812,physical_ns=2940088078,logical_ns=2939544856,microstep=0,intended_ns=2939544856,intended_microstep=0
+[32m(2940556978) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=30,mono_ns=272510257406,physical_ns=2990099472,logical_ns=2989544856,microstep=0,intended_ns=2989544856,intended_microstep=0
+[32m(2990516172) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=31,mono_ns=272559895101,physical_ns=3039737667,logical_ns=3039544856,microstep=0,intended_ns=3039544856,intended_microstep=0
+[32m(3040191667) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=32,mono_ns=272609894895,physical_ns=3089737061,logical_ns=3089544856,microstep=0,intended_ns=3089544856,intended_microstep=0
+[32m(3090203461) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=33,mono_ns=272659904489,physical_ns=3139746655,logical_ns=3139544856,microstep=0,intended_ns=3139544856,intended_microstep=0
+[32m(3140071155) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=34,mono_ns=272709997583,physical_ns=3189839949,logical_ns=3189544856,microstep=0,intended_ns=3189544856,intended_microstep=0
+[32m(3190291249) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=35,mono_ns=272760238678,physical_ns=3240080844,logical_ns=3239544856,microstep=0,intended_ns=3239544856,intended_microstep=0
+[32m(3240580944) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=36,mono_ns=272810026172,physical_ns=3289869438,logical_ns=3289544856,microstep=0,intended_ns=3289544856,intended_microstep=0
+[32m(3290370538) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=37,mono_ns=272860259966,physical_ns=3340102032,logical_ns=3339544856,microstep=0,intended_ns=3339544856,intended_microstep=0
+[32m(3340467032) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=38,mono_ns=272909866561,physical_ns=3389708727,logical_ns=3389544856,microstep=0,intended_ns=3389544856,intended_microstep=0
+[32m(3390162727) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=39,mono_ns=272959935156,physical_ns=3439777422,logical_ns=3439544856,microstep=0,intended_ns=3439544856,intended_microstep=0
+[32m(3440202522) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=40,mono_ns=273010264950,physical_ns=3490107116,logical_ns=3489544856,microstep=0,intended_ns=3489544856,intended_microstep=0
+[32m(3490520816) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=41,mono_ns=273060117245,physical_ns=3539959411,logical_ns=3539544856,microstep=0,intended_ns=3539544856,intended_microstep=0
+[32m(3540299011) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=42,mono_ns=273109881640,physical_ns=3589723606,logical_ns=3589544856,microstep=0,intended_ns=3589544856,intended_microstep=0
+[32m(3590119406) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=43,mono_ns=273160226935,physical_ns=3640069001,logical_ns=3639544856,microstep=0,intended_ns=3639544856,intended_microstep=0
+[32m(3640508101) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=44,mono_ns=273210155530,physical_ns=3689997896,logical_ns=3689544856,microstep=0,intended_ns=3689544856,intended_microstep=0
+[32m(3690409396) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=45,mono_ns=273259889325,physical_ns=3739731491,logical_ns=3739544856,microstep=0,intended_ns=3739544856,intended_microstep=0
+[32m(3740058691) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=46,mono_ns=273310262819,physical_ns=3790105085,logical_ns=3789544856,microstep=0,intended_ns=3789544856,intended_microstep=0
+[32m(3790608185) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=47,mono_ns=273359877314,physical_ns=3839719480,logical_ns=3839544856,microstep=0,intended_ns=3839544856,intended_microstep=0
+[32m(3840173380) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=48,mono_ns=273410282609,physical_ns=3890124875,logical_ns=3889544856,microstep=0,intended_ns=3889544856,intended_microstep=0
+[32m(3890616575) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=49,mono_ns=273460193904,physical_ns=3940035870,logical_ns=3939544856,microstep=0,intended_ns=3939544856,intended_microstep=0
+[32m(3940493570) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=50,mono_ns=273509997099,physical_ns=3989839165,logical_ns=3989544856,microstep=0,intended_ns=3989544856,intended_microstep=0
+[32m(3990309865) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=51,mono_ns=273559942894,physical_ns=4039785060,logical_ns=4039544856,microstep=0,intended_ns=4039544856,intended_microstep=0
+[32m(4040255160) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=52,mono_ns=273610237089,physical_ns=4090079155,logical_ns=4089544856,microstep=0,intended_ns=4089544856,intended_microstep=0
+[32m(4090544854) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=53,mono_ns=273660334383,physical_ns=4140176549,logical_ns=4139544856,microstep=0,intended_ns=4139544856,intended_microstep=0
+[32m(4140559549) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=54,mono_ns=273709886378,physical_ns=4189728544,logical_ns=4189544856,microstep=0,intended_ns=4189544856,intended_microstep=0
+[32m(4190116044) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=55,mono_ns=273759911373,physical_ns=4239769139,logical_ns=4239544856,microstep=0,intended_ns=4239544856,intended_microstep=0
+[32m(4240256139) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=56,mono_ns=273810385968,physical_ns=4290228234,logical_ns=4289544856,microstep=0,intended_ns=4289544856,intended_microstep=0
+[32m(4290729134) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=57,mono_ns=273859905363,physical_ns=4339747629,logical_ns=4339544856,microstep=0,intended_ns=4339544856,intended_microstep=0
+[32m(4340171029) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=58,mono_ns=273910281958,physical_ns=4390124124,logical_ns=4389544856,microstep=0,intended_ns=4389544856,intended_microstep=0
+[32m(4390623924) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=59,mono_ns=273960028152,physical_ns=4439870418,logical_ns=4439544856,microstep=0,intended_ns=4439544856,intended_microstep=0
+[32m(4440451118) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=60,mono_ns=274010243447,physical_ns=4490085713,logical_ns=4489544856,microstep=0,intended_ns=4489544856,intended_microstep=0
+[32m(4490621613) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=61,mono_ns=274060304342,physical_ns=4540146508,logical_ns=4539544856,microstep=0,intended_ns=4539544856,intended_microstep=0
+[32m(4540668508) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=62,mono_ns=274109985937,physical_ns=4589828003,logical_ns=4589544856,microstep=0,intended_ns=4589544856,intended_microstep=0
+[32m(4590231503) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=63,mono_ns=274159918432,physical_ns=4639760598,logical_ns=4639544856,microstep=0,intended_ns=4639544856,intended_microstep=0
+[32m(4640219398) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=64,mono_ns=274209919527,physical_ns=4689762393,logical_ns=4689544856,microstep=0,intended_ns=4689544856,intended_microstep=0
+[32m(4690137193) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=65,mono_ns=274260243122,physical_ns=4740085388,logical_ns=4739544856,microstep=0,intended_ns=4739544856,intended_microstep=0
+[32m(4740593387) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=66,mono_ns=274309854816,physical_ns=4789696882,logical_ns=4789544856,microstep=0,intended_ns=4789544856,intended_microstep=0
+[32m(4790157682) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=67,mono_ns=274360249611,physical_ns=4840091777,logical_ns=4839544856,microstep=0,intended_ns=4839544856,intended_microstep=0
+[32m(4840598477) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=68,mono_ns=274410298806,physical_ns=4890140972,logical_ns=4889544856,microstep=0,intended_ns=4889544856,intended_microstep=0
+[32m(4890623772) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=69,mono_ns=274460240401,physical_ns=4940082967,logical_ns=4939544856,microstep=0,intended_ns=4939544856,intended_microstep=0
+[32m(4940633267) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=70,mono_ns=274509951896,physical_ns=4989794062,logical_ns=4989544856,microstep=0,intended_ns=4989544856,intended_microstep=0
+[32m(4990185362) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=71,mono_ns=274559868891,physical_ns=5039710957,logical_ns=5039544856,microstep=0,intended_ns=5039544856,intended_microstep=0
+[32m(5040092657) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=72,mono_ns=274609866785,physical_ns=5089709151,logical_ns=5089544856,microstep=0,intended_ns=5089544856,intended_microstep=0
+[32m(5090100551) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=73,mono_ns=274660339480,physical_ns=5140181646,logical_ns=5139544856,microstep=0,intended_ns=5139544856,intended_microstep=0
+[32m(5140534246) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=74,mono_ns=274709898175,physical_ns=5189740241,logical_ns=5189544856,microstep=0,intended_ns=5189544856,intended_microstep=0
+[32m(5190193441) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=75,mono_ns=274760242070,physical_ns=5240084336,logical_ns=5239544856,microstep=0,intended_ns=5239544856,intended_microstep=0
+[32m(5240561436) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=76,mono_ns=274810055265,physical_ns=5289897531,logical_ns=5289544856,microstep=0,intended_ns=5289544856,intended_microstep=0
+[32m(5290302631) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=77,mono_ns=274859867660,physical_ns=5339709826,logical_ns=5339544856,microstep=0,intended_ns=5339544856,intended_microstep=0
+[32m(5340150526) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=78,mono_ns=274910207955,physical_ns=5390050121,logical_ns=5389544856,microstep=0,intended_ns=5389544856,intended_microstep=0
+[32m(5390439820) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=79,mono_ns=274960229849,physical_ns=5440072115,logical_ns=5439544856,microstep=0,intended_ns=5439544856,intended_microstep=0
+[32m(5440585315) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=80,mono_ns=275010230244,physical_ns=5490072510,logical_ns=5489544856,microstep=0,intended_ns=5489544856,intended_microstep=0
+[32m(5490608310) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=81,mono_ns=275060261839,physical_ns=5540104005,logical_ns=5539544856,microstep=0,intended_ns=5539544856,intended_microstep=0
+[32m(5540563105) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=82,mono_ns=275110260534,physical_ns=5590102600,logical_ns=5589544856,microstep=0,intended_ns=5589544856,intended_microstep=0
+[32m(5590536100) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=83,mono_ns=275160461129,physical_ns=5640303595,logical_ns=5639544856,microstep=0,intended_ns=5639544856,intended_microstep=0
+[32m(5640870695) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=84,mono_ns=275210253824,physical_ns=5690095890,logical_ns=5689544856,microstep=0,intended_ns=5689544856,intended_microstep=0
+[32m(5690531990) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=85,mono_ns=275260318818,physical_ns=5740161384,logical_ns=5739544856,microstep=0,intended_ns=5739544856,intended_microstep=0
+[32m(5740664084) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=86,mono_ns=275310178713,physical_ns=5790020879,logical_ns=5789544856,microstep=0,intended_ns=5789544856,intended_microstep=0
+[32m(5790354579) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=87,mono_ns=275359843508,physical_ns=5839685674,logical_ns=5839544856,microstep=0,intended_ns=5839544856,intended_microstep=0
+[32m(5840052674) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=88,mono_ns=275409877803,physical_ns=5889720169,logical_ns=5889544856,microstep=0,intended_ns=5889544856,intended_microstep=0
+[32m(5890127369) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=89,mono_ns=275459842298,physical_ns=5939684764,logical_ns=5939544856,microstep=0,intended_ns=5939544856,intended_microstep=0
+[32m(5939975664) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=90,mono_ns=275509831493,physical_ns=5989673659,logical_ns=5989544856,microstep=0,intended_ns=5989544856,intended_microstep=0
+[32m(5989880059) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=91,mono_ns=275559846588,physical_ns=6039689154,logical_ns=6039544856,microstep=0,intended_ns=6039544856,intended_microstep=0
+[32m(6039924154) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=92,mono_ns=275609859782,physical_ns=6089701948,logical_ns=6089544856,microstep=0,intended_ns=6089544856,intended_microstep=0
+[32m(6090021848) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=93,mono_ns=275659845577,physical_ns=6139687843,logical_ns=6139544856,microstep=0,intended_ns=6139544856,intended_microstep=0
+[32m(6140000543) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=94,mono_ns=275709847472,physical_ns=6189689538,logical_ns=6189544856,microstep=0,intended_ns=6189544856,intended_microstep=0
+[32m(6189964838) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=95,mono_ns=275759812267,physical_ns=6239654633,logical_ns=6239544856,microstep=0,intended_ns=6239544856,intended_microstep=0
+[32m(6241961833) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=96,mono_ns=275809839762,physical_ns=6289682228,logical_ns=6289544856,microstep=0,intended_ns=6289544856,intended_microstep=0
+[32m(6290052428) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=97,mono_ns=275859815557,physical_ns=6339657823,logical_ns=6339544856,microstep=0,intended_ns=6339544856,intended_microstep=0
+[32m(6340052123) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=98,mono_ns=275909870451,physical_ns=6389712917,logical_ns=6389544856,microstep=0,intended_ns=6389544856,intended_microstep=0
+[32m(6390121817) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=99,mono_ns=275959858846,physical_ns=6439701112,logical_ns=6439544856,microstep=0,intended_ns=6439544856,intended_microstep=0
+[32m(6440015712) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=100,mono_ns=276009843441,physical_ns=6489685607,logical_ns=6489544856,microstep=0,intended_ns=6489544856,intended_microstep=0
+[32m(6490082007) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=101,mono_ns=276059834436,physical_ns=6539677202,logical_ns=6539544856,microstep=0,intended_ns=6539544856,intended_microstep=0
+[32m(6539944602) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=102,mono_ns=276109823131,physical_ns=6589665297,logical_ns=6589544856,microstep=0,intended_ns=6589544856,intended_microstep=0
+[32m(6589935097) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=103,mono_ns=276159875126,physical_ns=6639717292,logical_ns=6639544856,microstep=0,intended_ns=6639544856,intended_microstep=0
+[32m(6640125492) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=104,mono_ns=276209829621,physical_ns=6689671787,logical_ns=6689544856,microstep=0,intended_ns=6689544856,intended_microstep=0
+[32m(6690016987) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=105,mono_ns=276259855315,physical_ns=6739697581,logical_ns=6739544856,microstep=0,intended_ns=6739544856,intended_microstep=0
+[32m(6740062381) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=106,mono_ns=276309842410,physical_ns=6789684576,logical_ns=6789544856,microstep=0,intended_ns=6789544856,intended_microstep=0
+[32m(6790099776) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=107,mono_ns=276359833805,physical_ns=6839676571,logical_ns=6839544856,microstep=0,intended_ns=6839544856,intended_microstep=0
+[32m(6840118871) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=108,mono_ns=276409839400,physical_ns=6889683066,logical_ns=6889544856,microstep=0,intended_ns=6889544856,intended_microstep=0
+[32m(6890074866) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+EVENT,SENT,seq=109,mono_ns=276459840895,physical_ns=6939683461,logical_ns=6939544856,microstep=0,intended_ns=6939544856,intended_microstep=0
+[32m(6940018661) [INFO] [FED] Flushing Network Channel FederatedOutputConnection[0m
+[32m(8989731949) [INFO] [SCHED] Scheduler terminating at tag (8989544856,0)[0m
+SUMMARY,role=sender,sent_total=110,sent_measured=100
+[32m(8990607949) [INFO] [ENV] Reactor shutting down, freeing federated environment.[0m
+[32m(8991497949) [INFO] [ENV] All Network Channels freed. Exiting.[0m

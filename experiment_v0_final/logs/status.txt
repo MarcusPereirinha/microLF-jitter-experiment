@@ -1,0 +1,16 @@
+EXPERIMENT STATUS
+=================
+Environment: PASS
+Build: PASS
+Baseline: PASS
+Tardy probe: PASS
+NetEm: PASS
+Pilot: PASS
+Final runs valid: 20/20
+Analysis: PASS
+Report: PASS
+Final audit: PASS
+Qdisc cleanup: PASS (lo noqueue)
+Vendor unchanged: PASS
+
+Campaign: v0_20261021T140846_final

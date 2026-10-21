@@ -1,0 +1,3 @@
+qdisc netem 7e00: root refcnt 2 limit 1000 delay 10ms  15ms seed 83742080
+ Sent 18084 bytes 238 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0

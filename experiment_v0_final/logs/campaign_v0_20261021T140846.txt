@@ -1,0 +1,156 @@
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/probe/v0_20261021T140846_probe/PROBE_rep01_20261021T140846198901540
+WARNING: NetEm on lo affects other local traffic. delay=80ms jitter=0ms seed=20261020
+{"run_id": "PROBE_rep01_20261021T140846198901540", "valid": true, "sent": 100, "normal": 0, "tardy": 100, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END PROBE_rep01_20261021T140846198901540
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/pilot/v0_20261021T140846_pilot/C1_rep01_20261021T140855394647593
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=2104523569
+{"run_id": "C1_rep01_20261021T140855394647593", "valid": true, "sent": 100, "normal": 96, "tardy": 4, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep01_20261021T140855394647593
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/pilot/v0_20261021T140846_pilot/C0_rep01_20261021T140903883194052
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=818557863
+{"run_id": "C0_rep01_20261021T140903883194052", "valid": true, "sent": 100, "normal": 99, "tardy": 1, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep01_20261021T140903883194052
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/pilot/v0_20261021T140846_pilot/C2_rep01_20261021T140912373551448
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=868405470
+{"run_id": "C2_rep01_20261021T140912373551448", "valid": true, "sent": 100, "normal": 70, "tardy": 30, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep01_20261021T140912373551448
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/pilot/v0_20261021T140846_pilot/C3_rep01_20261021T140920848106188
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=674582018
+{"run_id": "C3_rep01_20261021T140920848106188", "valid": true, "sent": 100, "normal": 61, "tardy": 39, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep01_20261021T140920848106188
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/B0_rep00_20261021T140929829159589
+{"run_id": "B0_rep00_20261021T140929829159589", "valid": true, "sent": 100, "normal": 100, "tardy": 0, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END B0_rep00_20261021T140929829159589
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C0_rep01_20261021T140938194257137
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=456612016
+{"run_id": "C0_rep01_20261021T140938194257137", "valid": true, "sent": 100, "normal": 95, "tardy": 5, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep01_20261021T140938194257137
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C1_rep01_20261021T140946902670223
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=1033746563
+{"run_id": "C1_rep01_20261021T140946902670223", "valid": true, "sent": 100, "normal": 89, "tardy": 11, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep01_20261021T140946902670223
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C2_rep01_20261021T140955485027443
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=133925585
+{"run_id": "C2_rep01_20261021T140955485027443", "valid": true, "sent": 100, "normal": 80, "tardy": 20, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep01_20261021T140955485027443
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C3_rep01_20261021T141004048515845
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=1397486147
+{"run_id": "C3_rep01_20261021T141004048515845", "valid": true, "sent": 100, "normal": 69, "tardy": 31, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep01_20261021T141004048515845
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C1_rep02_20261021T141012608182588
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=68749680
+{"run_id": "C1_rep02_20261021T141012608182588", "valid": true, "sent": 100, "normal": 93, "tardy": 7, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep02_20261021T141012608182588
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C2_rep02_20261021T141021190426679
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=692653990
+{"run_id": "C2_rep02_20261021T141021190426679", "valid": true, "sent": 100, "normal": 79, "tardy": 21, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep02_20261021T141021190426679
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C0_rep02_20261021T141029715635807
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=1091698166
+{"run_id": "C0_rep02_20261021T141029715635807", "valid": true, "sent": 100, "normal": 99, "tardy": 1, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep02_20261021T141029715635807
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C3_rep02_20261021T141038297957725
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=437253866
+{"run_id": "C3_rep02_20261021T141038297957725", "valid": true, "sent": 100, "normal": 69, "tardy": 31, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep02_20261021T141038297957725
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C2_rep03_20261021T141046893230071
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=193905443
+{"run_id": "C2_rep03_20261021T141046893230071", "valid": true, "sent": 100, "normal": 78, "tardy": 22, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep03_20261021T141046893230071
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C1_rep03_20261021T141055456689305
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=1195235211
+{"run_id": "C1_rep03_20261021T141055456689305", "valid": true, "sent": 100, "normal": 91, "tardy": 9, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep03_20261021T141055456689305
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C3_rep03_20261021T141104116448899
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=477657610
+{"run_id": "C3_rep03_20261021T141104116448899", "valid": true, "sent": 100, "normal": 68, "tardy": 32, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep03_20261021T141104116448899
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C0_rep03_20261021T141112786785534
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=1352554128
+{"run_id": "C0_rep03_20261021T141112786785534", "valid": true, "sent": 100, "normal": 98, "tardy": 2, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep03_20261021T141112786785534
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C3_rep04_20261021T141121375051672
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=83742080
+{"run_id": "C3_rep04_20261021T141121375051672", "valid": true, "sent": 100, "normal": 71, "tardy": 29, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep04_20261021T141121375051672
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C2_rep04_20261021T141129902857612
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=339755317
+{"run_id": "C2_rep04_20261021T141129902857612", "valid": true, "sent": 100, "normal": 81, "tardy": 19, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep04_20261021T141129902857612
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C0_rep04_20261021T141138478713900
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=2073806928
+{"run_id": "C0_rep04_20261021T141138478713900", "valid": true, "sent": 100, "normal": 98, "tardy": 2, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep04_20261021T141138478713900
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C1_rep04_20261021T141147031222461
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=2077402386
+{"run_id": "C1_rep04_20261021T141147031222461", "valid": true, "sent": 100, "normal": 89, "tardy": 11, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep04_20261021T141147031222461
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C3_rep05_20261021T141155604010994
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=15ms seed=999750638
+{"run_id": "C3_rep05_20261021T141155604010994", "valid": true, "sent": 100, "normal": 71, "tardy": 29, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C3_rep05_20261021T141155604010994
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C1_rep05_20261021T141204133621531
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=5ms seed=874034263
+{"run_id": "C1_rep05_20261021T141204133621531", "valid": true, "sent": 100, "normal": 97, "tardy": 3, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C1_rep05_20261021T141204133621531
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C2_rep05_20261021T141212737067968
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=10ms seed=590736737
+{"run_id": "C2_rep05_20261021T141212737067968", "valid": true, "sent": 100, "normal": 66, "tardy": 34, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C2_rep05_20261021T141212737067968
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/C0_rep05_20261021T141221294473139
+WARNING: NetEm on lo affects other local traffic. delay=10ms jitter=0ms seed=2138788194
+{"run_id": "C0_rep05_20261021T141221294473139", "valid": true, "sent": 100, "normal": 100, "tardy": 0, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END C0_rep05_20261021T141221294473139
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/final/v0_20261021T140846_final/B0_rep06_20261021T141229945778480
+{"run_id": "B0_rep06_20261021T141229945778480", "valid": true, "sent": 100, "normal": 100, "tardy": 0, "missing": 0, "duplicates": 0, "invalid_reasons": ""}
+RUN_END B0_rep06_20261021T141229945778480
+[
+  {
+    "scenario": "C0",
+    "configured_jitter_ms": 0,
+    "n_valid": 5,
+    "mean": 2.0,
+    "median": 2.0,
+    "std": 1.8708286933869707,
+    "min": 0.0,
+    "max": 5.0,
+    "ci95_low": 0.8,
+    "ci95_high": 3.6
+  },
+  {
+    "scenario": "C1",
+    "configured_jitter_ms": 5,
+    "n_valid": 5,
+    "mean": 8.2,
+    "median": 9.0,
+    "std": 3.3466401061363023,
+    "min": 3.0,
+    "max": 11.0,
+    "ci95_low": 5.4,
+    "ci95_high": 10.6
+  },
+  {
+    "scenario": "C2",
+    "configured_jitter_ms": 10,
+    "n_valid": 5,
+    "mean": 23.2,
+    "median": 21.0,
+    "std": 6.1400325732035,
+    "min": 19.0,
+    "max": 34.0,
+    "ci95_low": 19.8,
+    "ci95_high": 28.8
+  },
+  {
+    "scenario": "C3",
+    "configured_jitter_ms": 15,
+    "n_valid": 5,
+    "mean": 30.4,
+    "median": 31.0,
+    "std": 1.3416407864998738,
+    "min": 29.0,
+    "max": 32.0,
+    "ci95_low": 29.4,
+    "ci95_high": 31.4
+  }
+]

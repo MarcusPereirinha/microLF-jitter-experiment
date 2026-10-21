@@ -1,0 +1,466 @@
+[32m(1062224100) [INFO] [NET] TcpIpChannel: [server] Bind to 127.0.0.1:15042[0m
+[32m(1318931200) [INFO] [NET] TcpIpChannel: [server] Connceted to client with address 127.0.0.1[0m
+[32m(1569199500) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1569579000) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1730184200) [INFO] [FED] Handle: Handshake Response Tag System Event[0m
+[32m(1780330000) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(1819715600) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(1890399600) [INFO] [FED] Handle: Handshake Reqeust Tag System Event[0m
+[32m(2050595100) [INFO] [FED] Handle: Start Time Proposal Tag System Event[0m
+[32m(2050597200) [INFO] [FED] Start time negotiation completed Starting at 1960629100[0m
+[32m(2050598000) [INFO] [FED] Self: 0x56c33c115940 Scheduler: 0x56c33c115040[0m
+START,role=receiver,maxwait_ms=20
+[32m(2210710400) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(2210713600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2210714700) [WARN] [SCHED] Trying to schedule event into the past at tag: (1960629100,0)[0m
+[33m(2210715400) [WARN] [SCHED] Current tag: (2160629100,0)[0m
+[32m(2210716000) [INFO] [FED] First schedule_at returned 5 for desired tag: (1960629100,0)[0m
+[33m(2210716600) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2210720400) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2160629100,1)[0m
+[31m(2210722000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2210723000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2210723900) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(2210736800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (2160629100,1)[0m
+[32m(2210738500) [INFO] [FED]   payload first int = 0[0m
+[33m(2210740000) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=0,mono_ns=14625119100,physical_ns=2210740900,logical_ns=2160629100,microstep=1,intended_ns=1960629100,intended_microstep=0
+[32m(2413918500) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(2413920500) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2413921600) [WARN] [SCHED] Trying to schedule event into the past at tag: (2160629100,0)[0m
+[33m(2413922300) [WARN] [SCHED] Current tag: (2360629100,0)[0m
+[32m(2413922800) [INFO] [FED] First schedule_at returned 5 for desired tag: (2160629100,0)[0m
+[33m(2413923400) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2413947600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2360629100,1)[0m
+[31m(2413951700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2413953200) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2413954700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(2413971900) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (2360629100,1)[0m
+[32m(2413973400) [INFO] [FED]   payload first int = 4[0m
+[33m(2413975000) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=4,mono_ns=14828354100,physical_ns=2413975900,logical_ns=2360629100,microstep=1,intended_ns=2160629100,intended_microstep=0
+[32m(2574141800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(2574144100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2574145400) [WARN] [SCHED] Trying to schedule event into the past at tag: (2360629100,0)[0m
+[33m(2574146100) [WARN] [SCHED] Current tag: (2510629100,0)[0m
+[32m(2574927100) [INFO] [FED] First schedule_at returned 5 for desired tag: (2360629100,0)[0m
+[33m(2575209000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2575529300) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2510629100,1)[0m
+[31m(2575795800) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2576147900) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(2576507600) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (2510629100,1)[0m
+[32m(2576856800) [INFO] [FED]   payload first int = 8[0m
+[33m(2577195900) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=8,mono_ns=14991856800,physical_ns=2577478900,logical_ns=2510629100,microstep=1,intended_ns=2360629100,intended_microstep=0
+[32m(2734544100) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(2734949400) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2735191100) [WARN] [SCHED] Trying to schedule event into the past at tag: (2510629100,0)[0m
+[33m(2735453200) [WARN] [SCHED] Current tag: (2710629100,0)[0m
+[32m(2735669000) [INFO] [FED] First schedule_at returned 5 for desired tag: (2510629100,0)[0m
+[33m(2735797100) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2736024200) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2710629100,1)[0m
+[31m(2736269200) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2736473000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(2736664800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (2710629100,1)[0m
+[32m(2736875500) [INFO] [FED]   payload first int = 11[0m
+[33m(2737065600) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=11,mono_ns=15151642500,physical_ns=2737264500,logical_ns=2710629100,microstep=1,intended_ns=2510629100,intended_microstep=0
+[32m(2894768600) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(2895127100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(2895480500) [WARN] [SCHED] Trying to schedule event into the past at tag: (2660629100,0)[0m
+[33m(2895747100) [WARN] [SCHED] Current tag: (2860629100,0)[0m
+[32m(2896042400) [INFO] [FED] First schedule_at returned 5 for desired tag: (2660629100,0)[0m
+[33m(2896330000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(2896603000) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (2860629100,1)[0m
+[31m(2896795700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2897178300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(2897339400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(2897618400) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (2860629100,1)[0m
+[32m(2897863500) [INFO] [FED]   payload first int = 14[0m
+[33m(2898151800) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=14,mono_ns=15312836000,physical_ns=2898458000,logical_ns=2860629100,microstep=1,intended_ns=2660629100,intended_microstep=0
+[32m(3055233800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3055625100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3055962100) [WARN] [SCHED] Trying to schedule event into the past at tag: (2860629100,0)[0m
+[33m(3056241000) [WARN] [SCHED] Current tag: (3010629100,0)[0m
+[32m(3056492700) [INFO] [FED] First schedule_at returned 5 for desired tag: (2860629100,0)[0m
+[33m(3056777800) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3057071100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3010629100,1)[0m
+[31m(3057482600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3057821400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3058112600) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3010629100,1)[0m
+[32m(3058471700) [INFO] [FED]   payload first int = 18[0m
+[33m(3058823400) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=18,mono_ns=15473511200,physical_ns=3059133100,logical_ns=3010629100,microstep=1,intended_ns=2860629100,intended_microstep=0
+[32m(3215416600) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3215806200) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3216081000) [WARN] [SCHED] Trying to schedule event into the past at tag: (3010629100,0)[0m
+[33m(3216398300) [WARN] [SCHED] Current tag: (3160629100,0)[0m
+[32m(3216710400) [INFO] [FED] First schedule_at returned 5 for desired tag: (3010629100,0)[0m
+[33m(3217046500) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3217363100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3160629100,1)[0m
+[31m(3217562400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3217778000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3218088800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3160629100,1)[0m
+[32m(3218285700) [INFO] [FED]   payload first int = 21[0m
+[33m(3218419600) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=21,mono_ns=15632959300,physical_ns=3218581400,logical_ns=3160629100,microstep=1,intended_ns=3010629100,intended_microstep=0
+[32m(3375589200) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3375869800) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3376153700) [WARN] [SCHED] Trying to schedule event into the past at tag: (3160629100,0)[0m
+[33m(3376458400) [WARN] [SCHED] Current tag: (3310629100,0)[0m
+[32m(3376732300) [INFO] [FED] First schedule_at returned 5 for desired tag: (3160629100,0)[0m
+[33m(3377014700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3377343100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3310629100,1)[0m
+[31m(3377559700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3377769200) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3377993700) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3310629100,1)[0m
+[32m(3378168700) [INFO] [FED]   payload first int = 24[0m
+[33m(3378370200) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=24,mono_ns=15792914700,physical_ns=3378536700,logical_ns=3310629100,microstep=1,intended_ns=3160629100,intended_microstep=0
+[32m(3535773500) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3536114200) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3536387300) [WARN] [SCHED] Trying to schedule event into the past at tag: (3310629100,0)[0m
+[33m(3536615400) [WARN] [SCHED] Current tag: (3510629100,0)[0m
+[32m(3536851000) [INFO] [FED] First schedule_at returned 5 for desired tag: (3310629100,0)[0m
+[33m(3537035000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3537243000) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3510629100,1)[0m
+[31m(3537472000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3537768000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3538063200) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3510629100,1)[0m
+[32m(3538359300) [INFO] [FED]   payload first int = 27[0m
+[33m(3538647000) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=27,mono_ns=15953259400,physical_ns=3538881900,logical_ns=3510629100,microstep=1,intended_ns=3310629100,intended_microstep=0
+[32m(3695980800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3696407100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3696764200) [WARN] [SCHED] Trying to schedule event into the past at tag: (3460629100,0)[0m
+[33m(3697035800) [WARN] [SCHED] Current tag: (3660629100,0)[0m
+[32m(3697353800) [INFO] [FED] First schedule_at returned 5 for desired tag: (3460629100,0)[0m
+[33m(3697621200) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3698048900) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3660629100,1)[0m
+[31m(3698417600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3698731300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3698999400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3699353000) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3660629100,1)[0m
+[32m(3699615300) [INFO] [FED]   payload first int = 30[0m
+[33m(3699863300) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=30,mono_ns=16114467100,physical_ns=3700089100,logical_ns=3660629100,microstep=1,intended_ns=3460629100,intended_microstep=0
+[32m(3856198800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(3856512600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(3856722800) [WARN] [SCHED] Trying to schedule event into the past at tag: (3660629100,0)[0m
+[33m(3856939400) [WARN] [SCHED] Current tag: (3810629100,0)[0m
+[32m(3857176000) [INFO] [FED] First schedule_at returned 5 for desired tag: (3660629100,0)[0m
+[33m(3857335100) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(3932245900) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3810629100,1)[0m
+[31m(3932752900) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(3935735600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(3936029600) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3810629100,1)[0m
+[32m(3936231100) [INFO] [FED]   payload first int = 34[0m
+[33m(3936479300) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=34,mono_ns=16351036200,physical_ns=3936658500,logical_ns=3810629100,microstep=1,intended_ns=3660629100,intended_microstep=0
+[32m(4016318100) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4016589100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4016843000) [WARN] [SCHED] Trying to schedule event into the past at tag: (3810629100,0)[0m
+[33m(4017040100) [WARN] [SCHED] Current tag: (3960629100,0)[0m
+[32m(4017230200) [INFO] [FED] First schedule_at returned 5 for desired tag: (3810629100,0)[0m
+[33m(4017455700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4017689500) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (3960629100,1)[0m
+[31m(4017975500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4018214800) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4018505200) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (3960629100,1)[0m
+[32m(4018739800) [INFO] [FED]   payload first int = 37[0m
+[33m(4018953900) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=37,mono_ns=16433529700,physical_ns=4019151800,logical_ns=3960629100,microstep=1,intended_ns=3810629100,intended_microstep=0
+[32m(4176507500) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4176889000) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4177326900) [WARN] [SCHED] Trying to schedule event into the past at tag: (3960629100,0)[0m
+[33m(4177610000) [WARN] [SCHED] Current tag: (4110629100,0)[0m
+[32m(4177871900) [INFO] [FED] First schedule_at returned 5 for desired tag: (3960629100,0)[0m
+[33m(4178194500) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4178465600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4110629100,1)[0m
+[31m(4178779300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4179102000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4179484300) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4110629100,1)[0m
+[32m(4179831000) [INFO] [FED]   payload first int = 40[0m
+[33m(4180094300) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=40,mono_ns=16594748900,physical_ns=4180370900,logical_ns=4110629100,microstep=1,intended_ns=3960629100,intended_microstep=0
+[32m(4336746300) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4337091000) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4337332400) [WARN] [SCHED] Trying to schedule event into the past at tag: (4110629100,0)[0m
+[33m(4337601600) [WARN] [SCHED] Current tag: (4310629100,0)[0m
+[32m(4337806900) [INFO] [FED] First schedule_at returned 5 for desired tag: (4110629100,0)[0m
+[33m(4338152700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4338441600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4310629100,1)[0m
+[31m(4338731500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4338993300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4339323800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4310629100,1)[0m
+[32m(4339563400) [INFO] [FED]   payload first int = 43[0m
+[33m(4339827300) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=43,mono_ns=16754397400,physical_ns=4340019500,logical_ns=4310629100,microstep=1,intended_ns=4110629100,intended_microstep=0
+[32m(4497278600) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4497673100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4498054300) [WARN] [SCHED] Trying to schedule event into the past at tag: (4260629100,0)[0m
+[33m(4498402500) [WARN] [SCHED] Current tag: (4460629100,0)[0m
+[32m(4498745700) [INFO] [FED] First schedule_at returned 5 for desired tag: (4260629100,0)[0m
+[33m(4498974700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4499316100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4460629100,1)[0m
+[31m(4499600700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4499934300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4500158300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4500497100) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4460629100,1)[0m
+[32m(4500778600) [INFO] [FED]   payload first int = 46[0m
+[33m(4501047100) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=46,mono_ns=16915659600,physical_ns=4501281600,logical_ns=4460629100,microstep=1,intended_ns=4260629100,intended_microstep=0
+[32m(4657665800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4658100500) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4658453800) [WARN] [SCHED] Trying to schedule event into the past at tag: (4460629100,0)[0m
+[33m(4658808600) [WARN] [SCHED] Current tag: (4610629100,0)[0m
+[32m(4659117100) [INFO] [FED] First schedule_at returned 5 for desired tag: (4460629100,0)[0m
+[33m(4659472700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4659870100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4610629100,1)[0m
+[31m(4660327300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4660661100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4660894000) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4610629100,1)[0m
+[32m(4661150400) [INFO] [FED]   payload first int = 50[0m
+[33m(4661362700) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=50,mono_ns=17075927800,physical_ns=4661549800,logical_ns=4610629100,microstep=1,intended_ns=4460629100,intended_microstep=0
+[32m(4817841300) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4818127100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4818490800) [WARN] [SCHED] Trying to schedule event into the past at tag: (4610629100,0)[0m
+[33m(4818790900) [WARN] [SCHED] Current tag: (4760629100,0)[0m
+[32m(4819074500) [INFO] [FED] First schedule_at returned 5 for desired tag: (4610629100,0)[0m
+[33m(4819346400) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4819670600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4760629100,1)[0m
+[31m(4820026500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4820359400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4820813900) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4760629100,1)[0m
+[32m(4821106800) [INFO] [FED]   payload first int = 53[0m
+[33m(4821391500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=53,mono_ns=17235978900,physical_ns=4821600900,logical_ns=4760629100,microstep=1,intended_ns=4610629100,intended_microstep=0
+[32m(4978004200) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(4978377900) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(4978689700) [WARN] [SCHED] Trying to schedule event into the past at tag: (4760629100,0)[0m
+[33m(4979023300) [WARN] [SCHED] Current tag: (4910629100,0)[0m
+[32m(4979341200) [INFO] [FED] First schedule_at returned 5 for desired tag: (4760629100,0)[0m
+[33m(4979673100) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(4980009400) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (4910629100,1)[0m
+[31m(4980330000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(4980554600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(4980739300) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (4910629100,1)[0m
+[32m(4980948100) [INFO] [FED]   payload first int = 56[0m
+[33m(4981126700) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=56,mono_ns=17395693900,physical_ns=4981316000,logical_ns=4910629100,microstep=1,intended_ns=4760629100,intended_microstep=0
+[32m(5138388300) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5138721700) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5138985300) [WARN] [SCHED] Trying to schedule event into the past at tag: (4910629100,0)[0m
+[33m(5139242700) [WARN] [SCHED] Current tag: (5110629100,0)[0m
+[32m(5139495300) [INFO] [FED] First schedule_at returned 5 for desired tag: (4910629100,0)[0m
+[33m(5139772500) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5140013400) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5110629100,1)[0m
+[31m(5140197400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5140327000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5140499400) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5110629100,1)[0m
+[32m(5140650600) [INFO] [FED]   payload first int = 59[0m
+[33m(5140816400) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=59,mono_ns=17555354100,physical_ns=5140976000,logical_ns=5110629100,microstep=1,intended_ns=4910629100,intended_microstep=0
+[32m(5298570600) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5299054600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5299473000) [WARN] [SCHED] Trying to schedule event into the past at tag: (5060629100,0)[0m
+[33m(5299802400) [WARN] [SCHED] Current tag: (5260629100,0)[0m
+[32m(5300058000) [INFO] [FED] First schedule_at returned 5 for desired tag: (5060629100,0)[0m
+[33m(5300268200) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5300548100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5260629100,1)[0m
+[31m(5300778300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5301051200) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5301261400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5301567300) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5260629100,1)[0m
+[32m(5301917300) [INFO] [FED]   payload first int = 62[0m
+[33m(5302149900) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=62,mono_ns=17716771100,physical_ns=5302393100,logical_ns=5260629100,microstep=1,intended_ns=5060629100,intended_microstep=0
+[32m(5459149000) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5459671100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5460083300) [WARN] [SCHED] Trying to schedule event into the past at tag: (5260629100,0)[0m
+[33m(5460453300) [WARN] [SCHED] Current tag: (5410629100,0)[0m
+[32m(5461032600) [INFO] [FED] First schedule_at returned 5 for desired tag: (5260629100,0)[0m
+[33m(5461520800) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5461728900) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5410629100,1)[0m
+[31m(5462010500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5462386500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5462801700) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5410629100,1)[0m
+[32m(5463139400) [INFO] [FED]   payload first int = 66[0m
+[33m(5463431500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=66,mono_ns=17878120100,physical_ns=5463742000,logical_ns=5410629100,microstep=1,intended_ns=5260629100,intended_microstep=0
+[32m(5620056400) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5620533800) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5620959300) [WARN] [SCHED] Trying to schedule event into the past at tag: (5410629100,0)[0m
+[33m(5621398900) [WARN] [SCHED] Current tag: (5560629100,0)[0m
+[32m(5621674400) [INFO] [FED] First schedule_at returned 5 for desired tag: (5410629100,0)[0m
+[33m(5622073200) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5622465300) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5560629100,1)[0m
+[31m(5622783500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5623072600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5623573300) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5560629100,1)[0m
+[32m(5623871700) [INFO] [FED]   payload first int = 69[0m
+[33m(5624203200) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=69,mono_ns=18038874100,physical_ns=5624496100,logical_ns=5560629100,microstep=1,intended_ns=5410629100,intended_microstep=0
+[32m(5781088000) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5781668300) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5782145200) [WARN] [SCHED] Trying to schedule event into the past at tag: (5560629100,0)[0m
+[33m(5782509400) [WARN] [SCHED] Current tag: (5760629100,0)[0m
+[32m(5782921700) [INFO] [FED] First schedule_at returned 5 for desired tag: (5560629100,0)[0m
+[33m(5783259800) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5783576300) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5760629100,1)[0m
+[31m(5783865100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5784372000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5784617800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5760629100,1)[0m
+[32m(5784851900) [INFO] [FED]   payload first int = 72[0m
+[33m(5785100000) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=72,mono_ns=18199725700,physical_ns=5785347700,logical_ns=5760629100,microstep=1,intended_ns=5560629100,intended_microstep=0
+[32m(5941691100) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(5942297700) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(5942811400) [WARN] [SCHED] Trying to schedule event into the past at tag: (5710629100,0)[0m
+[33m(5943204500) [WARN] [SCHED] Current tag: (5910629100,0)[0m
+[32m(5943581800) [INFO] [FED] First schedule_at returned 5 for desired tag: (5710629100,0)[0m
+[33m(5943967000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(5944334100) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (5910629100,1)[0m
+[31m(5944796900) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(5945126000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(5945510800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (5910629100,1)[0m
+[32m(5945809900) [INFO] [FED]   payload first int = 75[0m
+[33m(5946187600) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=75,mono_ns=18360884100,physical_ns=5946506100,logical_ns=5910629100,microstep=1,intended_ns=5710629100,intended_microstep=0
+[32m(6102305300) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6102900700) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6103472600) [WARN] [SCHED] Trying to schedule event into the past at tag: (5860629100,0)[0m
+[33m(6103823200) [WARN] [SCHED] Current tag: (6060629100,0)[0m
+[32m(6104151500) [INFO] [FED] First schedule_at returned 5 for desired tag: (5860629100,0)[0m
+[33m(6104491400) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6104839200) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6060629100,1)[0m
+[31m(6105149500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6105516100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6105877000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6106267900) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6060629100,1)[0m
+[32m(6106509600) [INFO] [FED]   payload first int = 78[0m
+[33m(6106758500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=78,mono_ns=18521358600,physical_ns=6106980500,logical_ns=6060629100,microstep=1,intended_ns=5860629100,intended_microstep=0
+[32m(6262659700) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6263169800) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6263603900) [WARN] [SCHED] Trying to schedule event into the past at tag: (6060629100,0)[0m
+[33m(6263929500) [WARN] [SCHED] Current tag: (6210629100,0)[0m
+[32m(6264376500) [INFO] [FED] First schedule_at returned 5 for desired tag: (6060629100,0)[0m
+[33m(6264812600) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6265208600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6210629100,1)[0m
+[31m(6265545500) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6265882700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6266316900) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6210629100,1)[0m
+[32m(6266580400) [INFO] [FED]   payload first int = 82[0m
+[33m(6266836000) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=82,mono_ns=18681449000,physical_ns=6267070900,logical_ns=6210629100,microstep=1,intended_ns=6060629100,intended_microstep=0
+[32m(6423481000) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6424146100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6424680300) [WARN] [SCHED] Trying to schedule event into the past at tag: (6210629100,0)[0m
+[33m(6425058800) [WARN] [SCHED] Current tag: (6360629100,0)[0m
+[32m(6425421200) [INFO] [FED] First schedule_at returned 5 for desired tag: (6210629100,0)[0m
+[33m(6425701000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6426116600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6360629100,1)[0m
+[31m(6426523100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6426857400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6427294000) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6360629100,1)[0m
+[32m(6427617900) [INFO] [FED]   payload first int = 85[0m
+[33m(6427827600) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=85,mono_ns=18842400700,physical_ns=6428022700,logical_ns=6360629100,microstep=1,intended_ns=6210629100,intended_microstep=0
+[32m(6584431700) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6585043600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6585521000) [WARN] [SCHED] Trying to schedule event into the past at tag: (6360629100,0)[0m
+[33m(6585898700) [WARN] [SCHED] Current tag: (6560629100,0)[0m
+[32m(6586369700) [INFO] [FED] First schedule_at returned 5 for desired tag: (6360629100,0)[0m
+[33m(6586734400) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6587154600) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6560629100,1)[0m
+[31m(6587503900) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6587956600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6588443800) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6560629100,1)[0m
+[32m(6588701600) [INFO] [FED]   payload first int = 88[0m
+[33m(6588949500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=88,mono_ns=19003558300,physical_ns=6589180300,logical_ns=6560629100,microstep=1,intended_ns=6360629100,intended_microstep=0
+[32m(6744973700) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6745595600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6745996800) [WARN] [SCHED] Trying to schedule event into the past at tag: (6510629100,0)[0m
+[33m(6746458900) [WARN] [SCHED] Current tag: (6710629100,0)[0m
+[32m(6746793300) [INFO] [FED] First schedule_at returned 5 for desired tag: (6510629100,0)[0m
+[33m(6747230500) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6747621800) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6710629100,1)[0m
+[31m(6748071000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6748417200) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6748764700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6749000100) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6710629100,1)[0m
+[32m(6749246000) [INFO] [FED]   payload first int = 91[0m
+[33m(6749462500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=91,mono_ns=19164085800,physical_ns=6749707700,logical_ns=6710629100,microstep=1,intended_ns=6510629100,intended_microstep=0
+[32m(6905688200) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(6906266100) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(6906673800) [WARN] [SCHED] Trying to schedule event into the past at tag: (6710629100,0)[0m
+[33m(6907076100) [WARN] [SCHED] Current tag: (6860629100,0)[0m
+[32m(6907477700) [INFO] [FED] First schedule_at returned 5 for desired tag: (6710629100,0)[0m
+[33m(6907836200) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(6908211300) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (6860629100,1)[0m
+[31m(6908610100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(6909015000) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(6909497200) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (6860629100,1)[0m
+[32m(6909720900) [INFO] [FED]   payload first int = 95[0m
+[33m(6909938800) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=95,mono_ns=19324518900,physical_ns=6910140800,logical_ns=6860629100,microstep=1,intended_ns=6710629100,intended_microstep=0
+[32m(7065868400) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(7066239600) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(7066621600) [WARN] [SCHED] Trying to schedule event into the past at tag: (6860629100,0)[0m
+[33m(7067051400) [WARN] [SCHED] Current tag: (7010629100,0)[0m
+[32m(7067409700) [INFO] [FED] First schedule_at returned 5 for desired tag: (6860629100,0)[0m
+[33m(7067746700) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(7068162400) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (7010629100,1)[0m
+[31m(7068596100) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(7069007800) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(7069539500) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (7010629100,1)[0m
+[32m(7069828900) [INFO] [FED]   payload first int = 98[0m
+[33m(7070094600) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=98,mono_ns=19484700000,physical_ns=7070322000,logical_ns=7010629100,microstep=1,intended_ns=6860629100,intended_microstep=0
+[32m(7227002800) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(7227560800) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(7228152700) [WARN] [SCHED] Trying to schedule event into the past at tag: (7010629100,0)[0m
+[33m(7228545700) [WARN] [SCHED] Current tag: (7160629100,0)[0m
+[32m(7228861100) [INFO] [FED] First schedule_at returned 5 for desired tag: (7010629100,0)[0m
+[33m(7229269900) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(7229626900) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (7160629100,1)[0m
+[31m(7230067600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(7230461700) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(7230859500) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (7160629100,1)[0m
+[32m(7231159800) [INFO] [FED]   payload first int = 101[0m
+[33m(7231410800) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=101,mono_ns=19646033100,physical_ns=7231655100,logical_ns=7160629100,microstep=1,intended_ns=7010629100,intended_microstep=0
+[32m(7387356500) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(7387928200) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(7388419100) [WARN] [SCHED] Trying to schedule event into the past at tag: (7160629100,0)[0m
+[33m(7388808600) [WARN] [SCHED] Current tag: (7360629100,0)[0m
+[32m(7388980800) [INFO] [FED] First schedule_at returned 5 for desired tag: (7160629100,0)[0m
+[33m(7389462800) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(7389832800) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (7360629100,1)[0m
+[31m(7390178300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(7390615300) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(7391055600) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (7360629100,1)[0m
+[32m(7391331200) [INFO] [FED]   payload first int = 104[0m
+[33m(7391605500) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=104,mono_ns=19806237700,physical_ns=7391859600,logical_ns=7360629100,microstep=1,intended_ns=7160629100,intended_microstep=0
+[32m(7547548300) [INFO] [FED] Allocated payload for input 0x56c33c1179e0 (pool payload_size=4)[0m
+[32m(7548042400) [INFO] [FED] Deserialization returned 0 for conn 0[0m
+[33m(7548494300) [WARN] [SCHED] Trying to schedule event into the past at tag: (7310629100,0)[0m
+[33m(7548846600) [WARN] [SCHED] Current tag: (7510629100,0)[0m
+[32m(7549215900) [INFO] [FED] First schedule_at returned 5 for desired tag: (7310629100,0)[0m
+[33m(7549517000) [WARN] [FED] Safe-to-process violation! Tried scheduling event to a past tag. Handling now instead![0m
+[32m(7549810300) [INFO] [FED] Second schedule_at (fallback) returned 0 for tag: (7510629100,1)[0m
+[31m(7550135400) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[31m(7550450600) [ERROR] [FED] Input buffer at Connection 0x56c33c1179e0 is full. Dropping incoming msg[0m
+[32m(7550847200) [INFO] [FED] FederatedInputConnection 0x56c33c1179e0 preparing downstream port 0x56c33c115fe0 for tag: (7510629100,1)[0m
+[32m(7551078300) [INFO] [FED]   payload first int = 107[0m
+[33m(7551338700) [WARN] [SCHED] STP violation on Reactor_Receiver->reaction_2, invoking handler[0m
+EVENT,TARDY,seq=107,mono_ns=19965955800,physical_ns=7551577800,logical_ns=7510629100,microstep=1,intended_ns=7310629100,intended_microstep=0
+[32m(9480954300) [INFO] [SCHED] Scheduler terminating at tag (9460629100,0)[0m
+SUMMARY,role=receiver,normal=0,tardy=31,warmup=3
+[32m(9481388500) [INFO] [ENV] Reactor shutting down, freeing federated environment.[0m
+[32m(9482039000) [INFO] [ENV] All Network Channels freed. Exiting.[0m

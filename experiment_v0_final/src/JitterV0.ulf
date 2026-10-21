@@ -1,0 +1,100 @@
+// Syntax checked against the pinned reactor-uc official native/federated tests.
+preamble {=
+  #include <time.h>
+=}
+
+reactor Sender {
+  output out: int
+  timer emit(0, 50 ms)
+  state sent: int = 0
+
+  reaction(startup) {=
+    setvbuf(stdout, NULL, _IOLBF, 0);
+    printf("START,role=sender\n");
+  =}
+
+  reaction(emit) -> out {=
+    if (self->sent < 110) {
+      const int seq = self->sent;
+      struct timespec mono;
+      validate(clock_gettime(CLOCK_MONOTONIC, &mono) == 0);
+      const tag_t tag = env->scheduler->current_tag(env->scheduler);
+      lf_set(out, seq);
+      printf("EVENT,SENT,seq=%d,mono_ns=%lld,physical_ns=%lld,logical_ns=%lld,microstep=%u,intended_ns=%lld,intended_microstep=%u\n",
+        seq, (long long)mono.tv_sec * 1000000000LL + mono.tv_nsec,
+        (long long)env->get_physical_time(env), (long long)tag.time,
+        tag.microstep, (long long)tag.time, tag.microstep);
+      self->sent++;
+    }
+  =}
+
+  reaction(shutdown) {=
+    printf("SUMMARY,role=sender,sent_total=%d,sent_measured=%d\n",
+      self->sent, self->sent > 10 ? self->sent - 10 : 0);
+  =}
+}
+
+reactor Receiver {
+  input in: int
+  // Progress logical time even if the remote input has not arrived.
+  // This timer counts no messages and uses the same fixed period as Sender.
+  timer progress(0, 50 ms)
+  state normal: int = 0
+  state tardy_count: int = 0
+  state warmup: int = 0
+
+  reaction(startup) {=
+    setvbuf(stdout, NULL, _IOLBF, 0);
+    printf("START,role=receiver,maxwait_ms=20\n");
+  =}
+
+  reaction(progress) {=
+    // Only guarantees progression; no message accounting here.
+  =}
+
+  reaction(in) {=
+    struct timespec mono;
+    validate(clock_gettime(CLOCK_MONOTONIC, &mono) == 0);
+    const tag_t tag = env->scheduler->current_tag(env->scheduler);
+    printf("EVENT,NORMAL,seq=%d,mono_ns=%lld,physical_ns=%lld,logical_ns=%lld,microstep=%u,intended_ns=%lld,intended_microstep=%u\n",
+      in->value, (long long)mono.tv_sec * 1000000000LL + mono.tv_nsec,
+      (long long)env->get_physical_time(env), (long long)tag.time,
+      tag.microstep, (long long)in->super.intended_tag.time,
+      in->super.intended_tag.microstep);
+    if (in->value < 10) self->warmup++;
+    else self->normal++;
+  =} tardy {=
+    struct timespec mono;
+    validate(clock_gettime(CLOCK_MONOTONIC, &mono) == 0);
+    const tag_t tag = env->scheduler->current_tag(env->scheduler);
+    printf("EVENT,TARDY,seq=%d,mono_ns=%lld,physical_ns=%lld,logical_ns=%lld,microstep=%u,intended_ns=%lld,intended_microstep=%u\n",
+      in->value, (long long)mono.tv_sec * 1000000000LL + mono.tv_nsec,
+      (long long)env->get_physical_time(env), (long long)tag.time,
+      tag.microstep, (long long)in->super.intended_tag.time,
+      in->super.intended_tag.microstep);
+    if (in->value < 10) self->warmup++;
+    else self->tardy_count++;
+  =}
+
+  reaction(shutdown) {=
+    printf("SUMMARY,role=receiver,normal=%d,tardy=%d,warmup=%d\n",
+      self->normal, self->tardy_count, self->warmup);
+  =}
+}
+
+@platform("native")
+@clock_sync("off")
+@timeout(7500 ms)
+federated reactor {
+  @interface_tcp(name="lo", address="127.0.0.1")
+  sender = new Sender()
+
+  @interface_tcp(name="lo", address="127.0.0.1")
+  @maxwait(20 ms)
+  receiver = new Receiver()
+
+  @link(left="lo", right="lo", server_side="right", server_port=15042)
+  // Capacity for the entire finite run; avoids loss from a one-message pool.
+  @buffer(110)
+  sender.out -> receiver.in
+}

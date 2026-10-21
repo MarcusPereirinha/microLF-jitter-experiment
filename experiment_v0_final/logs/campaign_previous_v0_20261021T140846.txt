@@ -1,0 +1,3 @@
+RUN_START /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/results/raw/probe/v0_20261021T140446_probe/PROBE_rep01_20261021T140446698268800
+WARNING: NetEm on lo affects other local traffic. delay=80ms jitter=0ms seed=20261020
+{"run_id": "PROBE_rep01_20261021T140446698268800", "valid": false, "sent": 100, "normal": 0, "tardy": 31, "missing": 69, "duplicates": 0, "invalid_reasons": "received_measured_not_exact"}

@@ -1,0 +1,40 @@
+# Generated code, binaries, build trees and compiler artifacts.
+src-gen/
+bin/
+build/
+**/build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Local environments, editor state and caches.
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*~
+
+# Transient locks; experimental logs and configuration remain versioned.
+experiment_v0_final/logs/.*.lock
+
+# Local archive copies duplicate the versioned, uncompressed audit evidence.
+/experiment_v0_final.zip
+/experiment_v0_final_AUDITORIA.tar.gz

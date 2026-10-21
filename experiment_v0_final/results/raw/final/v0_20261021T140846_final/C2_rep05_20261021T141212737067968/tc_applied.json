@@ -1,0 +1,1 @@
+[{"kind":"netem","handle":"7e00:","root":true,"refcnt":2,"options":{"limit":1000,"delay":{"delay":0.01,"jitter":0.01,"correlation":0},"seed":590736737,"ecn":false,"gap":0}}]

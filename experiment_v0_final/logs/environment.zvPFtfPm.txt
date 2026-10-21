@@ -1,0 +1,89 @@
+Audit UTC: 2026-10-21T03:13:43Z
+Mode: --netem-test
+Workspace: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final
+User: uid=1000(vinipjr) gid=1000(vinipjr) groups=1000(vinipjr),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+Linux DESKTOP-F7C3CMU 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+/usr/bin/gcc
+/usr/bin/cmake
+/usr/bin/git
+/usr/bin/python3
+/usr/sbin/tc
+/usr/bin/java
+/usr/sbin/modprobe
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+cmake version 4.2.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+git version 2.53.0
+Python 3.14.4
+tc utility, iproute2-6.19.0, libbpf 1.6.3
+openjdk version "17.0.19" 2026-04-21
+OpenJDK Runtime Environment (build 17.0.19+10-1-26.04.2-Ubuntu)
+OpenJDK 64-Bit Server VM (build 17.0.19+10-1-26.04.2-Ubuntu, mixed mode, sharing)
+--- Workspace preservation ---
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Workspace is not a Git repository; no existing commit or branch.
+--- micro-LF toolchain ---
+MISSING: ulfc/ulfc-dev. Set ULFC to the actual micro-LF compiler.
+REACTOR_UC_PATH=NOT_SET
+ULF_POSIX_TEMPLATE_PATH=NOT_SET
+Other compiler (lfc does not establish micro-LF support):
+lfc 0.12.1
+--- NetEm inspection (no network mutation) ---
+qdisc noqueue 0: root refcnt 2 
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+CONFIG_NET_SCH_NETEM=m
+filename:       /lib/modules/6.6.87.2-microsoft-standard-WSL2/kernel/net/sched/sch_netem.ko
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           sch_netem
+vermagic:       6.6.87.2-microsoft-standard-WSL2 SMP preempt mod_unload modversions 
+--- tc local NetEm syntax ---
+Usage: ... netem [ limit PACKETS ]
+                 [ delay TIME [ JITTER [ CORRELATION ] ] ]
+                 [ distribution {uniform|normal|pareto|paretonormal} ]
+                 [ corrupt PERCENT [ CORRELATION ] ]
+                 [ duplicate PERCENT [ CORRELATION ] ]
+                 [ loss random PERCENT [ CORRELATION ] ]
+                 [ loss state P13 [ P31 [ P32 [ P23 [ P14 ] ] ] ] ]
+                 [ loss gemodel PERCENT [ R [ 1-H [ 1-K ] ] ] ]
+                 [ seed SEED ]
+                 [ ecn ]
+                 [ reorder PERCENT [ CORRELATION ] [ gap DISTANCE ] ]
+                 [ rate RATE [ PACKETOVERHEAD ] [ CELLSIZE ] [ CELLOVERHEAD ] ]
+                 [ slot MIN_DELAY [ MAX_DELAY ] [ packets MAX_PACKETS ] [ bytes MAX_BYTES ] ]
+                 [ slot distribution {uniform|normal|pareto|paretonormal|custom}
+                   DELAY JITTER [ packets MAX_PACKETS ] [ bytes MAX_BYTES ] ]
+--- Privilege availability ---
+WARNING: temporary NetEm on lo affects other local traffic, including control traffic.
+qdisc netem 7e00: root refcnt 2 limit 1000 delay 10ms seed 5977349344288275253
+qdisc netem 7e00: root refcnt 2 limit 1000 delay 10ms seed 5977349344288275253
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+NetEm: PASS (10 ms applied, inspected and immediately removed).
+Toolchain prerequisite failures: 1
+Saved: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/logs/environment.zvPFtfPm.txt
+--- Final loopback qdisc ---
+qdisc noqueue 0: root refcnt 2 

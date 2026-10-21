@@ -1,0 +1,99 @@
+Downloading https://services.gradle.org/distributions/gradle-8.8-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%..............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.8!
+
+Here are the highlights of this release:
+ - Running Gradle on Java 22
+ - Configurable Gradle daemon JVM
+ - Improved IDE performance for large projects
+
+For more details see https://docs.gradle.org/8.8/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :buildSrc:extractPluginRequests
+> Task :buildSrc:generatePluginAdapters
+> Task :buildSrc:compileJava
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:compileGroovyPlugins
+> Task :buildSrc:pluginDescriptors
+> Task :buildSrc:processResources
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+> Task :core:generateGrammarSource
+> Task :core:generateIntegrationTestGrammarSource NO-SOURCE
+> Task :core:generateTestFixturesGrammarSource NO-SOURCE
+> Task :core:generateTestGrammarSource NO-SOURCE
+
+> Task :core:generateXtextLanguage
+0    INFO  StandardLanguage   - Skipping registration of Xbase genmodel. Xbase is not on the classpath.
+10   INFO  XtextGenerator     - Initializing Xtext generator
+20   INFO  StandaloneSetup    - Adding generated EPackage 'org.eclipse.xtext.common.types.TypesPackage'
+129  INFO  StandaloneSetup    - Registering project core at 'file:/home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/'
+130  INFO  StandaloneSetup    - Registering project core at 'file:/home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/'
+144  INFO  StandaloneSetup    - Using resourceSet registry. The registered Packages will not be registered in the global EPackage.Registry.INSTANCE!
+603  INFO  AntlrToolFacade    - Downloading file from 'https://download.itemis.com/antlr-generator-3.2.0-patch.jar' ...
+2965 INFO  AntlrToolFacade    - Finished downloading.
+2971 INFO  XtextGenerator     - Generating org.lflang.LF
+3244 INFO  EMFGeneratorFragment2 - Generating EMF model code
+3428 INFO  GenModelHelper     - Registered GenModel 'https://lf-lang.org' from 'platform:/resource/core/model/generated/LF.genmodel'
+13848 INFO  XtextGenerator     - Generating common infrastructure
+13851 INFO  Workflow           - Done.
+
+> Task :core:processResources
+> Task :cli:base:processResources NO-SOURCE
+> Task :cli:lfc:processResources NO-SOURCE
+> Task :distTar NO-SOURCE
+> Task :distZip SKIPPED
+> Task :core:compileKotlin
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcConnectionGenerator.kt:104:9 Name shadowed: channels
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcConnectionGenerator.kt:157:51 Parameter 'federates' is never used
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcConnectionGenerator.kt:159:11 Name shadowed: federates
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcMakeGenerator.kt:20:13 Name shadowed: sources
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcMakeGenerator.kt:43:5 Parameter 'fileConfig' is never used
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:133:17 Name shadowed: address
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:202:17 Name shadowed: address
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:233:23 Parameter 'federate' is never used
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:253:23 Parameter 'federate' is never used
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:275:23 Parameter 'federate' is never used
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:342:34 Unnecessary non-null assertion (!!) on a non-null receiver of type UcFederatedGroupedConnection
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:343:33 Unnecessary non-null assertion (!!) on a non-null receiver of type UcFederatedGroupedConnection
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcNetworkChannel.kt:446:7 'when' is exhaustive so 'else' is redundant here
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcReactionGenerator.kt:88:13 Name shadowed: varRef
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcStartupCoordinatorGenerator.kt:24:7 'when' is exhaustive so 'else' is redundant here
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcValidator.kt:30:62 Parameter 'errorReporter' is never used, could be renamed to _
+w: file:///home/vinipjr/.local/share/microlf-jitter-v0/reactor-uc/ulf/core/src/main/kotlin/org/lflang/generator/uc/UcValidator.kt:30:77 Parameter 'map' is never used, could be renamed to _
+
+> Task :core:compileJava
+> Task :core:classes
+> Task :core:jar
+> Task :core:assemble
+> Task :cli:base:compileKotlin
+> Task :cli:base:compileJava
+> Task :cli:base:classes
+> Task :cli:base:jar
+> Task :cli:lfc:compileKotlin NO-SOURCE
+> Task :cli:lfc:compileJava
+> Task :cli:lfc:classes
+> Task :cli:lfc:jar
+> Task :cli:lfc:startScripts
+> Task :cli:lfc:installDist
+> Task :clitoolsDistTar
+> Task :clitoolsDistZip SKIPPED
+> Task :installClitoolsDist
+> Task :installDist NO-SOURCE
+> Task :assemble
+> Task :cli:base:assemble
+> Task :cli:lfc:distTar
+> Task :cli:lfc:distZip SKIPPED
+> Task :cli:lfc:assemble
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3m 29s
+23 actionable tasks: 23 executed

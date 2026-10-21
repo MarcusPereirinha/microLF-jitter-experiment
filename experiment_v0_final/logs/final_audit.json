@@ -1,0 +1,61 @@
+{
+  "pass_audit": true,
+  "campaign": "v0_20261021T140846_final",
+  "final_factor_runs_valid": 20,
+  "baselines_valid": 2,
+  "source_and_binaries_frozen": true,
+  "csv_reconstructed": true,
+  "bootstrap_reconstructed": true,
+  "vendor_unchanged": true,
+  "loopback_clean": true,
+  "scenarios": [
+    {
+      "scenario": "C0",
+      "configured_jitter_ms": 0,
+      "n_valid": 5,
+      "mean": 2.0,
+      "median": 2.0,
+      "std": 1.8708286933869707,
+      "min": 0.0,
+      "max": 5.0,
+      "ci95_low": 0.8,
+      "ci95_high": 3.6
+    },
+    {
+      "scenario": "C1",
+      "configured_jitter_ms": 5,
+      "n_valid": 5,
+      "mean": 8.2,
+      "median": 9.0,
+      "std": 3.3466401061363023,
+      "min": 3.0,
+      "max": 11.0,
+      "ci95_low": 5.4,
+      "ci95_high": 10.6
+    },
+    {
+      "scenario": "C2",
+      "configured_jitter_ms": 10,
+      "n_valid": 5,
+      "mean": 23.2,
+      "median": 21.0,
+      "std": 6.1400325732035,
+      "min": 19.0,
+      "max": 34.0,
+      "ci95_low": 19.8,
+      "ci95_high": 28.8
+    },
+    {
+      "scenario": "C3",
+      "configured_jitter_ms": 15,
+      "n_valid": 5,
+      "mean": 30.4,
+      "median": 31.0,
+      "std": 1.3416407864998738,
+      "min": 29.0,
+      "max": 32.0,
+      "ci95_low": 29.4,
+      "ci95_high": 31.4
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+tc qdisc add dev lo root handle 7e00: netem delay 10ms seed 456612016 

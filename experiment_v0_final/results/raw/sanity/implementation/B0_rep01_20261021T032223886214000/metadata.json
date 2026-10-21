@@ -1,0 +1,29 @@
+{
+  "period_ms": 50,
+  "maxwait_ms": 20,
+  "warmup_events": 10,
+  "measured_events": 100,
+  "grace_period_ms": 2000,
+  "run_id": "B0_rep01_20261021T032223886214000",
+  "scenario": "B0",
+  "repetition": 1,
+  "phase": "sanity",
+  "campaign_id": "implementation",
+  "seed": 20261020,
+  "base_delay_ms": 0,
+  "configured_jitter_ms": 0,
+  "distribution": "none",
+  "reactor_uc_commit": "e2d9a9fa79620f4f9152ebff2350884e5b5bcb0a",
+  "source_sha256": "95a6094e46e9ab22e913e058641e33a5eb950e9a455dc0380c7ad91b8e30178c",
+  "config_sha256": "853012b0e31f2cef799ff3b12dc3dfbef48241bc87825c1a2f2a640739ec0c39",
+  "clock_epoch_ns": 1792552942975874900,
+  "physical_instrumentation": "CLOCK_MONOTONIC",
+  "started_utc": "2026-10-21T03:22:24Z",
+  "exit_codes": {
+    "receiver": 0,
+    "sender": 0
+  },
+  "receiver_binary_sha256": "8346e073ac263e08a06bd3ec0caa9c1e254129d1ce5ffb8b78145e8abbee2706",
+  "sender_binary_sha256": "c8e1977dca822d060a5ec480dfe2301437b46c86efd78cac4d8e070dae1c3a9a",
+  "finished_utc": "2026-10-21T03:22:31Z"
+}

@@ -1,0 +1,45 @@
+{
+  "campaign": "v0_20261021T140846_pilot",
+  "complete": true,
+  "informative": true,
+  "all_low": false,
+  "all_high": false,
+  "low_threshold_pct": 1.0,
+  "high_threshold_pct": 99.0,
+  "hashes": {
+    "config/experiment.env": "d57f6bab91cb0c90eacbd597045f7dfd016213f02c252b139803270500db0c0a",
+    "src/JitterV0.ulf": "2dd20441bcfdef8a49a38beba4a126b55be71e101743e8ded12f86c65c87956e",
+    "bin/JitterV0_sender": "c8e1977dca822d060a5ec480dfe2301437b46c86efd78cac4d8e070dae1c3a9a",
+    "bin/JitterV0_receiver": "280e074db4676b220c5ef87cc99b533434818480e1834f49b7856f41a0570d93"
+  },
+  "runs": [
+    {
+      "run_id": "C0_rep01_20261021T140903883194052",
+      "scenario": "C0",
+      "valid": true,
+      "tardy_rate_pct": 1.0,
+      "invalid_reasons": ""
+    },
+    {
+      "run_id": "C1_rep01_20261021T140855394647593",
+      "scenario": "C1",
+      "valid": true,
+      "tardy_rate_pct": 4.0,
+      "invalid_reasons": ""
+    },
+    {
+      "run_id": "C2_rep01_20261021T140912373551448",
+      "scenario": "C2",
+      "valid": true,
+      "tardy_rate_pct": 30.0,
+      "invalid_reasons": ""
+    },
+    {
+      "run_id": "C3_rep01_20261021T140920848106188",
+      "scenario": "C3",
+      "valid": true,
+      "tardy_rate_pct": 39.0,
+      "invalid_reasons": ""
+    }
+  ]
+}

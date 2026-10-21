@@ -1,0 +1,2 @@
+8:LF_DEFINE_FEDERATED_INPUT_CONNECTION_CTOR(Reactor_JitterV0, conn_sender_out_0, int, 110, NEVER, false, MSEC(20));
+52:  tag_t (*current_tag)(Scheduler* self);

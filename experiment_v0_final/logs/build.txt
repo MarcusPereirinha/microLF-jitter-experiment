@@ -1,0 +1,96 @@
+lfc: [1minfo[0m[1m: Generating code for: file:/mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src/JitterV0.ulf[0m
+lfc: [1minfo[0m[1m: Generation mode: STANDALONE[0m
+lfc: [1minfo[0m[1m: Generating sources into: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0[0m
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender/build
+--- Executing command: cmake --version
+cmake version 4.2.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender
+--- Executing command: cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final -DCMAKE_INSTALL_BINDIR=bin --fresh -S /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender -B build
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (2.3s)
+-- Generating done (0.5s)
+-- Build files have been written to: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender/build
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender
+--- Executing command: cmake --build build --config Release --target JitterV0_sender --parallel 8
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[ 91%] Building C object CMakeFiles/JitterV0_sender.dir/lf_federate.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/lf_start.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/JitterV0/Sender.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/lf_main.c.o
+[100%] Linking C executable JitterV0_sender
+[100%] Built target JitterV0_sender
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[ 91%] Building C object CMakeFiles/JitterV0_sender.dir/lf_federate.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/lf_start.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/JitterV0/Sender.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_sender.dir/lf_main.c.o
+[100%] Linking C executable JitterV0_sender
+[100%] Built target JitterV0_sender
+
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/sender
+--- Executing command: cmake --build build --config Release --target install --parallel 8
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[100%] Built target JitterV0_sender
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/bin/JitterV0_sender
+SUCCESS (compiling generated C code)
+Generated source code is in /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0
+Compiled binary is in /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/bin
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver/build
+--- Executing command: cmake --version
+cmake version 4.2.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver
+--- Executing command: cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final -DCMAKE_INSTALL_BINDIR=bin --fresh -S /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver -B build
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (2.1s)
+-- Generating done (0.5s)
+-- Build files have been written to: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver/build
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver
+--- Executing command: cmake --build build --config Release --target JitterV0_receiver --parallel 8
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[ 88%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_federate.c.o
+[ 94%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_start.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_receiver.dir/JitterV0/Receiver.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_main.c.o
+[100%] Linking C executable JitterV0_receiver
+[100%] Built target JitterV0_receiver
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[ 88%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_federate.c.o
+[ 94%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_start.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_receiver.dir/JitterV0/Receiver.c.o
+[ 97%] Building C object CMakeFiles/JitterV0_receiver.dir/lf_main.c.o
+[100%] Linking C executable JitterV0_receiver
+[100%] Built target JitterV0_receiver
+
+--- Current working directory: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0/receiver
+--- Executing command: cmake --build build --config Release --target install --parallel 8
+[ 11%] Built target nanopb
+[ 86%] Built target reactor-uc
+[100%] Built target JitterV0_receiver
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/bin/JitterV0_receiver
+SUCCESS (compiling generated C code)
+Generated source code is in /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/src-gen/JitterV0
+Compiled binary is in /mnt/c/Users/55839/Desktop/microLF-jitter-experiment/experiment_v0_final/bin
+lfc: [1minfo[0m[1m: Code generation finished.[0m
